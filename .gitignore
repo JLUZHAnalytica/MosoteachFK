@@ -1,0 +1,9 @@
+
+access_file.txt
+*.html
+*.js
+*.gif
+*.css
+*.png
+quiz_html/.DS_Store
+.DS_Store

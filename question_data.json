@@ -1,0 +1,1099 @@
+{
+  "谓词公式∀xP(x)∧∃y﹁P(y) 是（ ）": [
+    "矛盾式"
+  ],
+  "与公式(∀x)(P(x)∧Q(x, y))⇒(∃x)R(x, y)等值的是（  ）。": [
+    "(∀u)(P(u)∧Q(u, z))Þ(∃x)R(x, z)",
+    "(∀u)(P(u)∧Q(u, z))⇒ (∃x)R(x, z)"
+  ],
+  "给定公式∃xP(x)→∀xP(x)，当D={a,b} 时，解释()使该公式真值为0.": [
+    "P(a)=0,P(b)=1",
+    "P(a)=1,P(b)=0"
+  ],
+  "下列谓词公式中，为重言式的有?": [
+    "∀x(﹁F(x)→﹁F(x))",
+    "∀xF(x)→∃xF(x)",
+    "﹁∀xF(x)←→∃x﹁F(x))"
+  ],
+  "取个体域为整数集，下列公式为真的有?": [
+    "∃x∃y(xy=2)",
+    "∃y∃x(xy=0)"
+  ],
+  "下列公式中等值的是？": [
+    "﹁∀xA(x),∃x﹁A(x)",
+    "∀x(A(x)∧B(x))，∀xA(x)∧∀xB(x)"
+  ],
+  "下面蕴涵关系式成立的是？": [
+    "∀xA(x)∧∀xB(x) =>∀x(A(x)∨B(x))",
+    "∃xA(x)→∀xB(x) =>∀x(A(x)→B(x))"
+  ],
+  "下列谓词公式中，为重言式的有？": [
+    "∀x(﹁F(x)→﹁F(x))"
+  ],
+  "设个体域为有理数集Q，则以下谓词公式中为假的是（）。": [
+    "∀x∃y(xy=1)"
+  ],
+  "设B不含有x，下列一阶逻辑等值式不正确的是": [
+    "∀x(A(x)→B) <==>∀xA(x)→B"
+  ],
+  "设个体域为整数集，则下列谓词公式中真值为假的是 （ ）": [
+    "∀x∃y(xy=1)"
+  ],
+  "下列各式中是永真式的是 ( ).": [
+    "∃x∀yF(x,y)→∀y∃xF(x,y)",
+    "F(x,y)→(G(x,y)→F(x,y))"
+  ],
+  "设论域为整数集，下列谓词公式中真值为真的是(      )。": [
+    "∀x∃y( xy = 0)"
+  ],
+  "设I是如下一个解释：D={a,b},P(a,a)=1,P(a,b)0,P(b,a)=1,P(b,b)=0  则在解释下取真值为1的公式是( ).": [
+    "∀x∃yP(x,y)"
+  ],
+  "设I是如下一个解释：\nD={2,3},  P(2,2)=0, P(2,3)=0, P(3,2)=1, P(3,3) =1 试求:  ∀x∃yP(y,x)   \n\n提示：将量词消除，代换为合取析取": [
+    "1"
+  ],
+  "下列各式中不成立的是 (   )": [
+    "∀x(P(x)∨Q(x)) <==>∀xP(x)∨∀xQ(x)"
+  ],
+  "设个体域为整数集，下列公式中其真值为0的是哪几个公式？": [
+    "∃y∀x(x+y=0)",
+    "∀x∀y(x+y=0)",
+    "﹁∃y∃x(x+y=0)"
+  ],
+  "下述不是∀x∃yP(x,y) 否定的是": [
+    "∀x∀y(﹁P(x,y)))",
+    "∀x∃y(﹁P(x,y))",
+    "∃x ∃y(﹁P(x,y))"
+  ],
+  "在谓词演算中，下列各式中，正确的是（    ）。": [
+    "∃x∃yA(x,y)  ≡ ∃y∃xA(x,y)"
+  ],
+  "以下哪个选项是错误的？": [
+    "﹁(∀xF(x))∨∃yG(y)  <=>  ﹁∀xF(x) ∨∃yG(y)",
+    "{x} ∈{x}"
+  ],
+  "下列公式正确的是?": [
+    "∀x(A(x)∧B(x)) ⇒ ∀xA(x)∧∀x B(x)",
+    "∃x(A(x)∨B(x)) ⇒∃xA(x)∨∃x B(x)"
+  ],
+  "设A,B,C为任意的命题公式，若A∨C<==> B∨C则A<==> B.": [
+    "错"
+  ],
+  "(p→(q→r))→(q→(p→r))是重言式.": [
+    "对"
+  ],
+  "若解释I的论域D仅包含一个元素，则公式  ∃xP(x) →∀xP(x)\n 在解释I下的真值为1": [
+    "对"
+  ],
+  "判断此式是否正确：∀x(P(x)∨Q(x)) ⇔∀xP(x) ∨∀x Q(x)": [
+    "错"
+  ],
+  "谓词公式∀xP(x) → (∀x﹁Q(x) → ﹁∃xQ(x))的类型是永真式。": [
+    "对"
+  ],
+  "设个体域为A={a,b}，公式∀xP(x) ∧∃xS(x)消去量词后应为P(x)∧S(x).": [
+    "错"
+  ],
+  "给定解释 I 为：\n    论域 D=正整数集合，f(x, y)=x+y，谓词F(x, y)表示x=y，a=2。\n    那么在这个解释下，\n          ∃x∀y∀zF(f(y,z),x)为真": [
+    "错"
+  ],
+  "谓词公式 ∀x（F(x)  → G(x))∧﹁∀y(F(y)  → G(y)）的类型是永真式。": [
+    "错"
+  ],
+  "G是n阶自补图，则G的边数是？": [
+    "n(n-1) / 4"
+  ],
+  "设图G = (V, E)，其中V = {A,B,C,D}, E = {{A,B},{A,C},{A,D},{B,C},{C,D}},则G是一个完全图。": [
+    "假"
+  ],
+  "设图G = (V, E)，其中V = {A,B,C,D}, E = {{A,B},{A,C},{A,D},{B,C},{C,D}}, 图G'={U,F}，其中U={A,B,D}, F = {{A,B}, {B,D}}，则G'是G的子图。": [
+    "假"
+  ],
+  "设集合A={1，2，3，4，5}上偏序关系的哈斯图为，则子集B={2，3，4}的最大元（   ）；最小元（   ）；极大元（   ）；极小元（ ）；上界（   ）；上确界（   ）；下界（  ）；下确界（   ）。": [
+    "无，4，2、3，4，1，1，4，4"
+  ],
+  "设集合A={1,2,3,4,5}上的偏序关系的哈斯图如下，若A的子集B={3,4,5},则元素3为B的 （ )": [
+    "最小上界"
+  ],
+  "集合A={1,2,3,4}上的偏序关系图如下图，则它的哈斯图为(     )。": [
+    "https://public-cdn-oss.mosoteach.cn/mssvc/editor/2020/05/4f771177bf43bd8b9d13e16a597018fd.png"
+  ],
+  "偏序关系和等价关系都具有 (   )": [
+    "传递性"
+  ],
+  "设A = {1,2,3,4,5,6,7,8}，R是A上的整除关系，，则集合 B={2,4,6}的最大元、最小元、上界、下确界依次为 ( )．": [
+    "无、2、无、2"
+  ],
+  "偏序关系一定不是(   )。": [
+    "反自反的"
+  ],
+  "< A,≤ > 是偏序集，其中A是正整数12的正因子的集合，≤为整除关系，则能覆盖元素3的元素是(   )。": [
+    "6"
+  ],
+  "设集合X={1，2，3，4，5，6，7，8，9，10，11，12}，|为X上的整除关系，则对于偏序关系|而言集合{2，3，4，6}有（）个极大元。": [
+    "2"
+  ],
+  "设集合X={1，2，3，4，5，6，7，8，9，10，11，12}，|为X上的整除关系，则对于偏序关系|而言集合{2，3}有（）个上界。": [
+    "2"
+  ],
+  "设集合X={1，2，3，4，5，6，7，8，9，10，11，12}，|为X上的整除关系，则对于偏序关系|而言集合{2，3，4，6}有（）个极小元。": [
+    "2"
+  ],
+  "设集合X={1，2，3，4，5，6，7，8，9，10，11，12}，|为X上的整除关系，则对于偏序关系|而言集合{6，9}有（）个下界。": [
+    "2"
+  ],
+  "请选出下列陈述中正确的是:": [
+    "若存在最小元，则必是唯一的。",
+    "对一个线性序而言，该序上的极小元也是最小元。"
+  ],
+  "设A={1,2,3}，R={<1,2>,<2,2>,<2,3>},则r(R),s(R)分别为 （ ）": [
+    "{<1,2>,<2,2>,<2,3>,<2,1>,<3,2>}",
+    "{<1,2>,<2,2>,<2,3>,<1,1>,<3,3>}"
+  ],
+  "设 A={1,2,3,4,5,6,7,8}, R是A上的整除关系 ，B={2,4,6} ，则集合B的最大元，最小元，上界，下界依次为?": [
+    "无、2、无、2"
+  ],
+  "设Ａ＝｛ａ，ｂ，ｃ｝，集合Ａ上的等价关系Ｒ所确定的Ａ的划分是｛｛ａ｝，｛ｂ，ｃ｝｝，则Ｒ=(      ) .": [
+    "｛＜ａ，ａ＞，＜ｂ，ｂ＞，＜ｂ，ｃ＞，＜ｃ，ｂ＞，＜ｃ，ｃ＞｝"
+  ],
+  "设集合X={1，2，3，4，5，6，7，8，9，10，11，12}，|为X上的整除关系，则对于偏序关系|而言集合{3，6，9}的最小元为3。": [
+    "对"
+  ],
+  "设集合X={a,b,c,d}上的关系R定义为R={(a,a),(a,b),(a,c),(a,d),(b,b),(b,d),(c,c),(c,d),(d,d)}，则R为X上的偏序关系。": [
+    "对",
+    "对"
+  ],
+  "设R为X上的偏序关系，则R为X上的全序关系当且仅当 X×X=R×R-1": [
+    "对"
+  ],
+  "设集合X={1，2，3，4，5，6，7，8，9，10，11，12}，|为X上的整除关系，则对于偏序关系|而言集合{6，9}的下确界为3。": [
+    "对"
+  ],
+  "设集合X={a,b,c,d}上的关系R定义为R={(a,a),(a,b),(a,c),(b,b),(b,d),(c,c),(c,d),(d,d)}，则R为X上的偏序关系。": [
+    "错"
+  ],
+  "设X为一个集合，⊆关系为定义在上2X的偏序关系，A⊆2X,B⊆2X，则集合{A,B}对于关系而言其上确界为A∪B。": [
+    "对"
+  ],
+  "设集合X={1，2，3，4，5，6，7，8，9，10，11，12}，|为X上的整除关系，则对于偏序关系|而言集合{2，4，6}的最大元为6。": [
+    "错"
+  ],
+  "设X为一个集合，⊆关系为定义在上2X的偏序关系，A⊆2X,B⊆2X，则集合{A,B}对于关系而言其下确界为A∩B。": [
+    "对"
+  ],
+  " 与  归结的结果是": [
+    "错"
+  ],
+  "若K不是重言式，那么它是（ ）。": [
+    "不能确定",
+    "不能确定",
+    "不能确定"
+  ],
+  "德国纳粹头子戈培尔曾说，谎言重复三次就成为真理。请问这违背了哪条定律？": [
+    "幂等律",
+    "幂等律"
+  ],
+  "“臭豆腐又臭又香”是个假命题。请问这使用了哪条定律？": [
+    "矛盾律",
+    "矛盾律"
+  ],
+  "我家的猫要么在阳台睡觉，要么在厨房吃肉。现在没在阳台找到它，那它肯定在厨房。请问这使用了什么推理定律？": [
+    "析取三段论",
+    "析取三段论"
+  ],
+  "根据蕴涵率，P→Q与下列哪个公式等价？": [
+    "﹁P∨Q",
+    "﹁P∨Q"
+  ],
+  "以下谓词公式中，(    )不是逻辑有效式。": [
+    "(∃x)(P(x)∧Q(x)) <==> (∃x) P(x)∧(∃x) Q(x)",
+    "(∀x) P(x)∨(∀x) Q(x) <==> (∀x)(P(x)∨Q(x))",
+    "(∃x)(P(x)∧Q(x)) <==> (∃x) P(x)∧(∃x) Q(x)"
+  ],
+  "谓词公式(∀x)F(x) ⇒(∀x)G(x)的前束范式是(    )": [
+    "(∃x)(∀y)(F(x) ⇒ G(y))"
+  ],
+  "(    )不是有效的推理。": [
+    "前提：(∀x)(P(x)⇒(Q(x)∧R(x))), (∃x)(P(x)∧S(x))\n结论：(∀x)(R(x)∧S(x))",
+    "前提：(∀x)(P(x)⇒(Q(x)∧R(x))), (∃x)(P(x)∧S(x))\n\n结论：(∀x)(R(x)∧S(x))",
+    "前提：(∀x)(G(x)⇒H(x))，﹁(∃x)(F(x)∧H(x))\n\n结论：(∃x)F(x)⇒(∃x)G(x)"
+  ],
+  "以下谓词公式中，(    )是逻辑有效式。": [
+    "∀x Q(x) ⇒ (∃x Q(x)∨∀y S(y) )",
+    "∀x Q(x) ⇒ (∃x Q(x)∨∀y S(y) )"
+  ],
+  "谓词公式(∀x)F(x) ⇒ (∀x)G(x)的前束范式是(    )": [
+    "(∃x)(∀y)(F(x) ⇒ G(y))"
+  ],
+  "给定公式∃xF(y,x)→∀yG(y)的前束范式是?": [
+    "∀x∀y(F(z,x)→G(y))",
+    "∀x∀y(﹁F(z,x)∨G(y))",
+    "∀y∀x(﹁F(z,x)∨G(y))"
+  ],
+  "给定推理\n(1) ∀x(F(x)→G(x)) 前提引入\n(2) F(y)→G(y)   (1)UI\n(3) ∃xF(x)     前提引入\n(4) F(y)        (3)EI\n(5) G(y)        (2)(4) 假言推理\n(6)∀xG(x)      (5)UG\n所以： ∀x(F(x)→G(x)) => ∀xG(x)\n推理过程中错在哪里？": [
+    "(3)→(4)"
+  ],
+  "下列推理步骤错在？\n(1) ∀x∃yF(x,y)  前提引入\n(2) ∃yF(z,y)     (1)UI\n(3) F(z,c)        (2)EI\n(4) ∀xF(x,c)     (3)UG\n(5)∃y∀xF(x,y)   (4)EG": [
+    "(4)→(5)"
+  ],
+  "谓词逻辑的推理中,∀xG(x) => G(x)使用的是(        )。": [
+    "US规则"
+  ],
+  "以下哪个公式是前束范式？": [
+    "∀x∀y(F(x)∧F(y) →G(y,x))"
+  ],
+  "谓词公式∃x(F(x) → ∃xG(x))的前束范式是(    )。": [
+    "∀x∃y (F(x) → G(y))"
+  ],
+  "谓词公式∃x(∃yQ(y) → P(x))前束范式是(    )。": [
+    "∃x∀y(Q(y) → P(x))"
+  ],
+  "设个体域 A={a,b}，公式∀xP(x) Λ∃xS(x)在A 上消去量词后应为（    ）。": [
+    "P(a) ΛP(b) Λ(S(a) V S(b))"
+  ],
+  "设论域为整数集，下列公式中值为真的是（    ）。": [
+    "∀x∃y(x+y=0)"
+  ],
+  "谓词公式∃x(∃yQ(y)⇒P(x))的前束范式是(    )。": [
+    "∃x∀y(Q(y)⇒P(x))"
+  ],
+  "一个命题公式可以有多个与之等值的析取范式，但其主析取范式唯一.": [
+    "对"
+  ],
+  "将量词辖域中出现的约束变元和指导变元交换为另一变元符号，公式其余部分不变，这种方法称为换名规则。": [
+    "对"
+  ],
+  "设x是谓词合式公式A的一个客体变元，A的论域为D，A(x)关于y是自由的，则 ∃x A(x) => A(y)\n\n“ y为D的某些元素”被称为存在量词引入规则，记为ES。": [
+    "错"
+  ],
+  "设个体域{1,2}，谓词P(1)=1，P(2)=0，Q(1)=0,Q(2)=1，则∀x（P(x) ∨Q(x)）的真值是1。": [
+    "对"
+  ],
+  "设A={2，5，8}，A上的二元运算*定义为：a*b=min{a,b}，则在独异点<A,*>中，零元是(     )。": [
+    "2"
+  ],
+  "设A={2,5，8}，A上的二元运算*定义为：a*b=max{a,b}，则<A,*>中的零元是（   ）。": [
+    "8"
+  ],
+  "在自然数集N上，下列哪些运算是可交换的？（     ）": [
+    "a*b=|a-b|",
+    "a*b=max{a,b}"
+  ],
+  "有限集合A上二元关系全体及关系合成运算组成代数结构 <{R|R⊆A ×A，o} ，以下关于该结构说法正确的有": [
+    "其幺元是相等关系",
+    "每个关系都有逆元",
+    "其零元为空关系"
+  ],
+  "下面说法不正确的有": [
+    "代数结构的幺元和逆元一定不同",
+    "<Q,*>（Q代表正有理数，*代表数乘）构成群"
+  ],
+  "以下说法错误的有": [
+    "所有的群都有零元和幺元",
+    "若代数结构<S,*>上*运算满足结合律，那么其任一可约元素必有逆元",
+    "非空集合上关系不是对称的就是反对称的",
+    "非空集合上的相等关系是自反、反自反、对称、反对称和传递的"
+  ],
+  "6阶有限群的任何子群一定不是（    ）。": [
+    "4阶",
+    "4阶"
+  ],
+  "<G,*>是群，则对*（        ）。": [
+    "有单位元",
+    "每元有逆元",
+    "满足结合律"
+  ],
+  "设a是10阶群的生成元， 则a的4次幂是(    )阶元素。": [
+    "5阶"
+  ],
+  "设a是10阶群的生成元， 则a的3次幂是(    )阶元素。": [
+    "10阶"
+  ],
+  "设a是12阶群的生成元， 则a的2次幂是(    )阶元素。": [
+    "6阶"
+  ],
+  "六阶群的子群的阶数可以是（     ）。": [
+    "2,3"
+  ],
+  "群<Z4,⊕>的子群是（     ）。": [
+    "<{0,2},⊕>"
+  ],
+  "下列代数系统<S,*>中，哪个是群（    ）?": [
+    "S={1，3，4，5，9}，*是模11乘法"
+  ],
+  "以下哪些是8阶循环群<a>的生成元？（     ）": [
+    "a的3次幂",
+    "a的5次幂",
+    "a",
+    "a的7次幂"
+  ],
+  "以下哪些是8阶循环群<a>的子群？（    ）": [
+    "a的4次幂生成的群",
+    "a的2次幂生成的群",
+    "{e}",
+    "<a>"
+  ],
+  "<G,*>是群，则对*（       ）。": [
+    "有单位元，可结合"
+  ],
+  "设K = {e , a , b , c}，<K,*>是Klein四元群，则元素a的逆元为(    )。": [
+    "a"
+  ],
+  "以下哪些是8阶循环群<a>的非平凡子群？（    ）": [
+    "a的4次幂生成的群",
+    "a的2次幂生成的群"
+  ],
+  "设A={1,2},则群<P(A),∩>的单位元和零元是(   )": [
+    "A与Ø"
+  ],
+  "设i是虚数，·是复数乘法运算，则G=<{1,-1,i,-i},·>是群，下列是G的子群是(      )": [
+    "<{1},·>"
+  ],
+  "任意具有多个等幂元的半群，它（         ）。": [
+    "不能构成群"
+  ],
+  "具有如下定义的代数系统<G,*> ，（        ）不构成群。": [
+    "G=Q（有理数集），*是普通乘法"
+  ],
+  "六阶群的子群的阶数可以是（          ）。": [
+    "2，3"
+  ],
+  "设I为整数集合，m是任意正整数，Zm 是由模m的同余类组成的同余类集合，在 Zm上定义运算\n[i]*[j] = [(i*j)mod m],则代数系统<Zm,*m>最确切的性质是（        ）": [
+    "半群"
+  ],
+  "设S={0，1}，*为普通乘法，则< S , * >是（            ）。": [
+    "只是独异点，但不是群"
+  ],
+  "在运算表中，如果一个元素的行和列的元素都是这个元素自身，那么这个元素是零元。": [
+    "真"
+  ],
+  "在一个偶数阶群中一定存在一个2阶元素。": [
+    "真"
+  ],
+  "群G除单位元以外无其它幂等元。": [
+    "真",
+    "真"
+  ],
+  "有限群中阶大于2的元素的个数一定是偶数。": [
+    "假"
+  ],
+  "在元素不少于两个的群中不存在零元。": [
+    "真"
+  ],
+  "a是一个群〈G，*〉的生成元，则a的逆元也是群〈G，*〉的生成元。": [
+    "真"
+  ],
+  "设 <A ，+ ，·>是环，∀a,b ∈A ，a·b的关于“+”的逆元是（          ）。": [
+    "(-a)·b",
+    "a·(-b)"
+  ],
+  "设 <A ，+ ，·>是一代数系统且<A ，+ >是Abel群，如果还满足（             ）<A ，+ ，·>是域。": [
+    "<A-{ Ɵ} ，·>是Abel且·对+可分配。"
+  ],
+  "若R是非空集合A上的等价关系，则R2也是非空集合A上的等价关系.": [
+    "对"
+  ],
+  "设R和S是集合A上的关系，则\nt(R∪S)=t(R)∪ t(S)": [
+    "错"
+  ],
+  "设集合X={a,b,c,d}，集合X上的二元关系R={(a,d),(b,a),(b,c),(c,a),(c,d),(d,c)}，则R的传递闭包为{(a,c),(a,d),(b,a),(b,c),(b,d),(c,a),(c,d),(d,a),(d,c)}。": [
+    "错"
+  ],
+  "以下哪个选项是等价关系?": [
+    "命题公式的逻辑等价关系"
+  ],
+  "等价关系一定不是(  )。": [
+    "反自反的"
+  ],
+  "设集合A={1,2,3}，下列关系中不是等价关系的是(    )。": [
+    "R={<1,1>,<2,2>,<3,3>,<1,2>}"
+  ],
+  "设a,b是集合上的等价关系，则下列关系不一定是等价关系的是(   )。": [
+    "a∪b"
+  ],
+  "设集合X={1,2,3,4,5,6}，集合X上的等价关系R={(1,1),(2,2),(2,3),(3,2),(3,3),(4,5),(5,6),(5,4),(6,5),(4,6),(6,4),(4,4),(5,5),(6,6)}有（）个等价类。": [
+    "3"
+  ],
+  "设集合X={1,2,3,4,5,6}，集合X上的关系R={(1,1),(2,2),(2,3),(3,2),(3,3),(4,5),(5,6),(5,4),(6,5),(4,6),(4,4),(5,5),(6,6)}是集合X上的等价关系。": [
+    "错"
+  ],
+  "设集合X={1,2,3,4,5,6}，集合X上的关系R={(1,1),(2,2),(2,3),(3,2),(3,3),(4,5),(5,6),(5,4),(6,5),(4,6),(6,4),(4,4),(5,5),(6,6)}是集合X上的等价关系。": [
+    "对"
+  ],
+  "设集合X={1,2,3,4,5,6}，集合X上的等价关系R={(1,1),(2,2),(2,3),(3,2),(3,3),(4,5),(5,6),(5,4),(6,5),(4,6),(6,4),(4,4),(5,5),(6,6)}，则[6]={4,5,6}。": [
+    "对"
+  ],
+  "设集合X={1,2,3,4,5,6}，集合X上的等价关系R={(1,1),(2,2),(2,3),(3,2),(3,3),(4,5),(5,6),(5,4),(6,5),(4,6),(6,4),(4,4),(5,5),(6,6)}，则[6]={5,6}。": [
+    "错"
+  ],
+  "设集合X={1,2,3,4,5,6}，则{{1}，{2，3}，{4，5，6}}构成了集合X的一个划分。": [
+    "对"
+  ],
+  "设集合X={1,2,3,4,5,6}，则与集合X的划分{{1}，{2，3}，{4，5，6}}对应的等价关系为{(1,1),(2,2),(2,3),(3,2),(3,3),(4,5),(5,6),(5,4),(6,5),(4,6),(6,4),(4,4),(5,5),(6,6)}。": [
+    "对"
+  ],
+  "设 A={1,2,3,…,10} 。下列哪个是A的划分？": [
+    "{{1,2,7},{3,5,10},{4,6,8},{9}}",
+    "{{1,2,7},{3,5,10},{4,6,8},{9}}"
+  ],
+  "设A={1,2,3,4,5,6}   A有划分 \n a={{1,2,3},{4,5,6}}，\n b= {{1,2},{3,4},{5,6}} \n则a+b，a*b  分别为": [
+    "{{1,2,3,4,5,6},{{1,2},{3},{4},{5,6}}",
+    "{{1,2,3,4,5,6},{{1,2},{3},{4},{5,6}}"
+  ],
+  "R 是A={1,2,3,4,5,6}上的等价关系，\nR= IA ∪{<1,5>,<5,1>,<2,4>,<4,2>,<3,6>,<6,3>}": [
+    "{3,6}",
+    "{1,5}",
+    "{2,4}"
+  ],
+  "设 A={a,b,c,d}，A上的等价关系，\nR={<a,b>,<b,a>,<c,d>,<d,c>}∪ IA, 则对应R于的A的划分是(     )。": [
+    "{{a,b},{c,d}}"
+  ],
+  "设S={1,2,3}，定义S×S上的等价关系R,   R ={<<a,b>,<c,d>>| <a,b>∈S×S, <c,d>∈S×S , a+d = b+c  }    \n则由 R产 生的上一个划分共有（   ）个分块": [
+    "5"
+  ],
+  "设A={1,2,3,4}，在P(A)上规定二元关系如下： R={<s,t>|s,t∈P(A) ∧(|s|=|t|)}   R是P(A)上的等价关系,则商集P(A)/R为 (   )": [
+    "{[Φ]R},{{1}R,{1,2}R,{1,2,3}R,{1,2,3,4}R}"
+  ],
+  "{(1,2), (3,2)} 不具有传递性。": [
+    "错",
+    "错"
+  ],
+  "关于下图表示的关系，正确的陈述是（  ）": [
+    "它不满足反对称性。    "
+  ],
+  "以下哪个关系不具有反对称性 (    )": [
+    "{(1,2), (2,3), (3,2)}"
+  ],
+  "以下具有传递性的关系是？": [
+    "古代科举的同年关系"
+  ],
+  "A={a,b}，R是A上的关系，R={<a,a>,<b,b>}，那么R不具有传递性。": [
+    "错"
+  ],
+  "设集合A={1，2，3，4}, A上的关系R1={(1,4),(2,3),(3,2)} ,R2={(2,1),(3,2),(4,3)} , 则R1oR2  = (  ), R2oR1=(  ), R12=(   )": [
+    "{(1,3),(2,2),(3,1)};\n{(2,4),(3,3),(4,2)};\n{(2,2),(3,3)}"
+  ],
+  "设S={1,2,3,4}，S上的关系\nR={<1,2>,<2,1>,<2,3>,<3,4>}求RoR": [
+    "{<1,1>,<1,3>,<2,2>,<2,4>}"
+  ],
+  "以下说法错误的是（）。": [
+    "集合X的幂集2X上的真包含关系“⊆”是对称的。"
+  ],
+  "设集合X={1,2,3,4}，R={(1,2),(2,2),(3,4)},S={(2,3),(3,1),(4,2)},则下列说法错误的是（）。": [
+    "S2={(2,1)}"
+  ],
+  "设R、S都为X上的二元关系，则(R∪S)*=R*∪S*。": [
+    "错"
+  ],
+  "设S={1,2,3}，S上关系R的关系图为则R具有（    ）性质": [
+    "自反性"
+  ],
+  "下列哪个关系矩阵具有反自反性？(   )。": [
+    "https://public-cdn-oss.mosoteach.cn/mssvc/editor/2020/05/dccd6ca7a484aa4ddb38564f16920c02.png"
+  ],
+  "设集合A ={1,2,3,4},  A上的关系R={(1,1),(2,3),(2,4),(3，4）}, 则具有": [
+    "传递性"
+  ],
+  "设A={1，2，3，4，5，6}，B={1,2,3},从A到B的关系R = {<x,y>|x=y2},则R-1 = （   ）": [
+    "{ < 1,1 >, < 2,4 > }"
+  ],
+  "集合A={1,2,3,…,10}上的关系，\nR={x,y|x+y=10,x,y∈ A} \n则R 的性质为(    )": [
+    "对称性"
+  ],
+  "设  F= {<x,y>|x-y+2>0 且 x-y-2<0 } 是实数集上二元关系，则F具有": [
+    "自反性",
+    "对称性"
+  ],
+  "设A={1,2,3,4,5}，R是A上的二元关系\n R={<1,3>,<1,4>，<2,3>,<2,4>,<2,5>,<1,1>} 那么R是(  )。": [
+    "传递的"
+  ],
+  "设R和S都是集合X上的二元关系，则下列说法错误的是（）。": [
+    "如果R与S是传递的，则R∪S也是传递的。"
+  ],
+  "设R与S都为集合X上的二元关系，则下列说法正确的是（）。": [
+    "如果R，S都是对称的，则RoS也是对称的。"
+  ],
+  "在关系图中，若每两个顶点间没有双向边，表示该关系一定不具有对称性": [
+    "错"
+  ],
+  "如果R是集合X上的反自反的和传递的二元关系，则R是X上的反对称的二元关系。": [
+    "对"
+  ],
+  "如果R与S是反对称的，则R∪S也是反对称的。": [
+    "错"
+  ],
+  "实数集上的“小于”关系<是传递的。": [
+    "对"
+  ],
+  "实数集上的“小于”关系<是自反的。": [
+    "错"
+  ],
+  "(R*)*=R*": [
+    "对"
+  ],
+  "命题公式是（    ）": [
+    "重言式"
+  ],
+  "下述真值表表示的命题是（    ）。": [
+    "data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Awrs%3D%22http%3A%2F%2Fwww.wiris.com%2Fxml%2Fcvs-extension%22%20height%3D%2222%22%20width%3D%22121%22%20wrs%3Abaseline%3D%2216%22%3E%3C!--MathML%3A%20%3Cmath%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F1998%2FMath%2FMathML%22%3E%3Cmo%3E(%3C%2Fmo%3E%3Cmi%3Ep%3C%2Fmi%3E%3Cmo%3E%26%23x2227%3B%3C%2Fmo%3E%3Cmi%3Eq%3C%2Fmi%3E%3Cmo%3E)%3C%2Fmo%3E%3Cmo%3E%26%23x2192%3B%3C%2Fmo%3E%3Cmo%3E(%3C%2Fmo%3E%3Cmi%3Eq%3C%2Fmi%3E%3Cmo%3E%26%23x2192%3B%3C%2Fmo%3E%3Cmi%3Er%3C%2Fmi%3E%3Cmo%3E)%3C%2Fmo%3E%3C%2Fmath%3E--%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%40font-face%7Bfont-family%3A'math1d797aef3a1c3a30b9a4162fbc8'%3Bsrc%3Aurl(data%3Afont%2Ftruetype%3Bcharset%3Dutf-8%3Bbase64%2CAAEAAAAMAIAAAwBAT1MvMi7iBBMAAADMAAAATmNtYXDEvmKUAAABHAAAADxjdnQgDVUNBwAAAVgAAAA6Z2x5ZoPi2VsAAAGUAAAAz2hlYWQQC2qxAAACZAAAADZoaGVhCGsXSAAAApwAAAAkaG10eE2rRkcAAALAAAAADGxvY2EAHTwYAAACzAAAABBtYXhwBT0FPgAAAtwAAAAgbmFtZaBxlY4AAAL8AAABn3Bvc3QB9wD6AAAEnAAAACBwcmVwa1uragAABLwAAAAUAAADSwGQAAUAAAQABAAAAAAABAAEAAAAAAAAAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAgICAAAAAg1UADev96AAAD6ACWAAAAAAACAAEAAQAAABQAAwABAAAAFAAEACgAAAAGAAQAAQACIZIiJ%2F%2F%2FAAAhkiIn%2F%2F%2Feb93bAAEAAAAAAAAAAAFUAywAgAEAAFYAKgJYAh4BDgEsAiwAWgGAAoAAoADUAIAAAAAAAAAAKwBVAIAAqwDVAQABKwAHAAAAAgBVAAADAAOrAAMABwAAMxEhESUhESFVAqv9qwIA%2FgADq%2FxVVQMAAAEAgACqA4ACVQAIAB8AsQAAExCxAAblsQABExCwATyxAw%2FlsQcF9bEFD%2FUwEyEnNQ0BNTchgAIrVgEr%2FtVW%2FdUBqkFq1dZrQAABAIAAAAMrAlUABgA2GAGwBxCxAAP0sQYF5bEBCuaxAgX2sQMK9rEEBeaxCAPkALEAAD%2ByBgMEPDw8sQEH9rACPDAxMwEzASMJAYABKlYBK1X%2B%2F%2F8AAlX9qwIK%2FfYAAAEAAAABAADVeM5BXw889QADBAD%2F%2F%2F%2F%2F1joTc%2F%2F%2F%2F%2F%2FWOhNzAAD%2FIASAA6sAAAAKAAIAAQAAAAAAAQAAA%2Bj%2FagAAF3AAAP%2B2BIAAAQAAAAAAAAAAAAAAAAAAAAMDUgBVBAAAgAOgAIAAAAAAAAAAKAAAAHEAAADPAAEAAAADAF4ABQAAAAAAAgCABAAAAAAABAAA3gAAAAAAAAAVAQIAAAAAAAAAAQASAAAAAAAAAAAAAgAOABIAAAAAAAAAAwAwACAAAAAAAAAABAASAFAAAAAAAAAABQAWAGIAAAAAAAAABgAJAHgAAAAAAAAACAAcAIEAAQAAAAAAAQASAAAAAQAAAAAAAgAOABIAAQAAAAAAAwAwACAAAQAAAAAABAASAFAAAQAAAAAABQAWAGIAAQAAAAAABgAJAHgAAQAAAAAACAAcAIEAAwABBAkAAQASAAAAAwABBAkAAgAOABIAAwABBAkAAwAwACAAAwABBAkABAASAFAAAwABBAkABQAWAGIAAwABBAkABgAJAHgAAwABBAkACAAcAIEATQBhAHQAaAAgAEYAbwBuAHQAUgBlAGcAdQBsAGEAcgBNAGEAdABoAHMAIABGAG8AcgAgAE0AbwByAGUAIABNAGEAdABoACAARgBvAG4AdABNAGEAdABoACAARgBvAG4AdABWAGUAcgBzAGkAbwBuACAAMQAuADBNYXRoX0ZvbnQATQBhAHQAaABzACAARgBvAHIAIABNAG8AcgBlAAADAAAAAAAAAfQA%2BgAAAAAAAAAAAAAAAAAAAAAAAAAAuQcRAACNhRgAsgAAABUUE7EAAT8%3D)format('truetype')%3Bfont-weight%3Anormal%3Bfont-style%3Anormal%3B%7D%40font-face%7Bfont-family%3A'round_brackets18549f92a457f2409'%3Bsrc%3Aurl(data%3Afont%2Ftruetype%3Bcharset%3Dutf-8%3Bbase64%2CAAEAAAAMAIAAAwBAT1MvMjwHLFQAAADMAAAATmNtYXDf7xCrAAABHAAAADxjdnQgBAkDLgAAAVgAAAASZ2x5ZmAOz2cAAAFsAAABJGhlYWQOKih8AAACkAAAADZoaGVhCvgVwgAAAsgAAAAkaG10eCA6AAIAAALsAAAADGxvY2EAAARLAAAC%2BAAAABBtYXhwBIgEWQAAAwgAAAAgbmFtZXHR30MAAAMoAAACOXBvc3QDogHPAAAFZAAAACBwcmVwupWEAAAABYQAAAAHAAAGcgGQAAUAAAgACAAAAAAACAAIAAAAAAAAAQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAgICAAAAAo8AMGe%2F57AAAHPgGyAAAAAAACAAEAAQAAABQAAwABAAAAFAAEACgAAAAGAAQAAQACACgAKf%2F%2FAAAAKAAp%2F%2F%2F%2F2f%2FZAAEAAAAAAAAAAAFUAFYBAAAsAKgDgAAyAAcAAAACAAAAKgDVA1UAAwAHAAA1MxEjEyMRM9XVq4CAKgMr%2FQAC1QABAAD%2B0AIgBtAACQBNGAGwChCwA9SwAxCwAtSwChCwBdSwBRCwANSwAxCwBzywAhCwCDwAsAoQsAPUsAMQsAfUsAoQsAXUsAoQsADUsAMQsAI8sAcQsAg8MTAREAEzABEQASMAAZCQ%2FnABkJD%2BcALQ%2FZD%2BcAGQAnACcAGQ%2FnAAAQAA%2FtACIAbQAAkATRgBsAoQsAPUsAMQsALUsAoQsAXUsAUQsADUsAMQsAc8sAIQsAg8ALAKELAD1LADELAH1LAKELAF1LAKELAA1LADELACPLAHELAIPDEwARABIwAREAEzAAIg%2FnCQAZD%2BcJABkALQ%2FZD%2BcAGQAnACcAGQ%2FnAAAQAAAAEAAPW2NYFfDzz1AAMIAP%2F%2F%2F%2F%2FVre7u%2F%2F%2F%2F%2F9Wt7u4AAP7QA7cG0AAAAAoAAgABAAAAAAABAAAHPv5OAAAXcAAA%2F%2F4DtwABAAAAAAAAAAAAAAAAAAAAAwDVAAACIAAAAiAAAAAAAAAAAAAkAAAAowAAASQAAQAAAAMACgACAAAAAAACAIAEAAAAAAAEAABNAAAAAAAAABUBAgAAAAAAAAABAD4AAAAAAAAAAAACAA4APgAAAAAAAAADAFwATAAAAAAAAAAEAD4AqAAAAAAAAAAFABYA5gAAAAAAAAAGAB8A%2FAAAAAAAAAAIABwBGwABAAAAAAABAD4AAAABAAAAAAACAA4APgABAAAAAAADAFwATAABAAAAAAAEAD4AqAABAAAAAAAFABYA5gABAAAAAAAGAB8A%2FAABAAAAAAAIABwBGwADAAEECQABAD4AAAADAAEECQACAA4APgADAAEECQADAFwATAADAAEECQAEAD4AqAADAAEECQAFABYA5gADAAEECQAGAB8A%2FAADAAEECQAIABwBGwBSAG8AdQBuAGQAIABiAHIAYQBjAGsAZQB0AHMAIAB3AGkAdABoACAAYQBzAGMAZQBuAHQAIAAxADgANQA0AFIAZQBnAHUAbABhAHIATQBhAHQAaABzACAARgBvAHIAIABNAG8AcgBlACAAUgBvAHUAbgBkACAAYgByAGEAYwBrAGUAdABzACAAdwBpAHQAaAAgAGEAcwBjAGUAbgB0ACAAMQA4ADUANABSAG8AdQBuAGQAIABiAHIAYQBjAGsAZQB0AHMAIAB3AGkAdABoACAAYQBzAGMAZQBuAHQAIAAxADgANQA0AFYAZQByAHMAaQBvAG4AIAAyAC4AMFJvdW5kX2JyYWNrZXRzX3dpdGhfYXNjZW50XzE4NTQATQBhAHQAaABzACAARgBvAHIAIABNAG8AcgBlAAAAAAMAAAAAAAADnwHPAAAAAAAAAAAAAAAAAAAAAAAAAAC5B%2F8AAY2FAA%3D%3D)format('truetype')%3Bfont-weight%3Anormal%3Bfont-style%3Anormal%3B%7D%3C%2Fstyle%3E%3C%2Fdefs%3E%3Ctext%20font-family%3D%22round_brackets18549f92a457f2409%22%20font-size%3D%2218%22%20text-anchor%3D%22middle%22%20x%3D%223.5%22%20y%3D%2216%22%3E(%3C%2Ftext%3E%3Ctext%20font-family%3D%22Times%20New%20Roman%22%20font-size%3D%2218%22%20font-style%3D%22italic%22%20text-anchor%3D%22middle%22%20x%3D%2210.5%22%20y%3D%2216%22%3Ep%3C%2Ftext%3E%3Ctext%20font-family%3D%22math1d797aef3a1c3a30b9a4162fbc8%22%20font-size%3D%2216%22%20text-anchor%3D%22middle%22%20x%3D%2225.5%22%20y%3D%2216%22%3E%26%23x2227%3B%3C%2Ftext%3E%3Ctext%20font-family%3D%22Times%20New%20Roman%22%20font-size%3D%2218%22%20font-style%3D%22italic%22%20text-anchor%3D%22middle%22%20x%3D%2239.5%22%20y%3D%2216%22%3Eq%3C%2Ftext%3E%3Ctext%20font-family%3D%22round_brackets18549f92a457f2409%22%20font-size%3D%2218%22%20text-anchor%3D%22middle%22%20x%3D%2247.5%22%20y%3D%2216%22%3E)%3C%2Ftext%3E%3Ctext%20font-family%3D%22math1d797aef3a1c3a30b9a4162fbc8%22%20font-size%3D%2216%22%20text-anchor%3D%22middle%22%20x%3D%2261.5%22%20y%3D%2216%22%3E%26%23x2192%3B%3C%2Ftext%3E%3Ctext%20font-family%3D%22round_brackets18549f92a457f2409%22%20font-size%3D%2218%22%20text-anchor%3D%22middle%22%20x%3D%2274.5%22%20y%3D%2216%22%3E(%3C%2Ftext%3E%3Ctext%20font-family%3D%22Times%20New%20Roman%22%20font-size%3D%2218%22%20font-style%3D%22italic%22%20text-anchor%3D%22middle%22%20x%3D%2281.5%22%20y%3D%2216%22%3Eq%3C%2Ftext%3E%3Ctext%20font-family%3D%22math1d797aef3a1c3a30b9a4162fbc8%22%20font-size%3D%2216%22%20text-anchor%3D%22middle%22%20x%3D%2297.5%22%20y%3D%2216%22%3E%26%23x2192%3B%3C%2Ftext%3E%3Ctext%20font-family%3D%22Times%20New%20Roman%22%20font-size%3D%2218%22%20font-style%3D%22italic%22%20text-anchor%3D%22middle%22%20x%3D%22110.5%22%20y%3D%2216%22%3Er%3C%2Ftext%3E%3Ctext%20font-family%3D%22round_brackets18549f92a457f2409%22%20font-size%3D%2218%22%20text-anchor%3D%22middle%22%20x%3D%22116.5%22%20y%3D%2216%22%3E)%3C%2Ftext%3E%3C%2Fsvg%3E"
+  ],
+  "": [
+    "对"
+  ],
+  "命题公式的成真指派是（    ）。": [
+    "001,011,101,110,111"
+  ],
+  "以下逻辑公式中，（    ）是的主析取范式。": [
+    "data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Awrs%3D%22http%3A%2F%2Fwww.wiris.com%2Fxml%2Fcvs-extension%22%20height%3D%2222%22%20width%3D%22222%22%20wrs%3Abaseline%3D%2216%22%3E%3C!--MathML%3A%20%3Cmath%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F1998%2FMath%2FMathML%22%3E%3Cmo%3E(%3C%2Fmo%3E%3Cmi%3Ep%3C%2Fmi%3E%3Cmo%3E%26%23x2227%3B%3C%2Fmo%3E%3Cmi%3Eq%3C%2Fmi%3E%3Cmo%3E)%3C%2Fmo%3E%3Cmo%3E%26%23x2228%3B%3C%2Fmo%3E%3Cmo%3E(%3C%2Fmo%3E%3Cmi%3Ep%3C%2Fmi%3E%3Cmo%3E%26%23x2227%3B%3C%2Fmo%3E%3Cmo%3E%26%23xAC%3B%3C%2Fmo%3E%3Cmi%3Eq%3C%2Fmi%3E%3Cmo%3E)%3C%2Fmo%3E%3Cmo%3E%26%23x2228%3B%3C%2Fmo%3E%3Cmo%3E(%3C%2Fmo%3E%3Cmo%3E%26%23xAC%3B%3C%2Fmo%3E%3Cmi%3Ep%3C%2Fmi%3E%3Cmo%3E%26%23x2227%3B%3C%2Fmo%3E%3Cmi%3Eq%3C%2Fmi%3E%3Cmo%3E)%3C%2Fmo%3E%3C%2Fmath%3E--%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%40font-face%7Bfont-family%3A'math1ae7ab27346316fca54e1f24429'%3Bsrc%3Aurl(data%3Afont%2Ftruetype%3Bcharset%3Dutf-8%3Bbase64%2CAAEAAAAMAIAAAwBAT1MvMi7iBBMAAADMAAAATmNtYXDEvmKUAAABHAAAAERjdnQgDVUNBwAAAWAAAAA6Z2x5ZoPi2VsAAAGcAAABI2hlYWQQC2qxAAACwAAAADZoaGVhCGsXSAAAAvgAAAAkaG10eE2rRkcAAAMcAAAAEGxvY2EAHTwYAAADLAAAABRtYXhwBT0FPgAAA0AAAAAgbmFtZaBxlY4AAANgAAABn3Bvc3QB9wD6AAAFAAAAACBwcmVwa1uragAABSAAAAAUAAADSwGQAAUAAAQABAAAAAAABAAEAAAAAAAAAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAgICAAAAAg1UADev96AAAD6ACWAAAAAAACAAEAAQAAABQAAwABAAAAFAAEADAAAAAIAAgAAgAAAKwiJyIo%2F%2F8AAACsIiciKP%2F%2F%2F1Xd293bAAEAAAAAAAAAAAAAAVQDLACAAQAAVgAqAlgCHgEOASwCLABaAYACgACgANQAgAAAAAAAAAArAFUAgACrANUBAAErAAcAAAACAFUAAAMAA6sAAwAHAAAzESERJSERIVUCq%2F2rAgD%2BAAOr%2FFVVAwAAAQBVAKsDKwIrAAUAHxiwBhCxBAP0sALUsQUF9ACwBBCwBC%2BxAgX0sADUMDElIxEhNSEDK1b9gALWqwEqVgABAIAAAAMrAlUABgA2GAGwBxCxAAP0sQYF5bEBCuaxAgX2sQMK9rEEBeaxCAPkALEAAD%2ByBgMEPDw8sQEH9rACPDAxMwEzASMJAYABKlYBK1X%2B%2F%2F8AAlX9qwIK%2FfYAAQCAAAADKwJVAAYANRgBsAcQsQAD9LEGBeWxAQrmsQIF9rEDCvWxBAXmsQgD5ACxAQA%2FsAI8sADWsgQGAzw8PDAxEwEzASMJAYABKlYBK1X%2B%2F%2F8AAlX9qwJV%2FfQCDAAAAQAAAAEAANV4zkFfDzz1AAMEAP%2F%2F%2F%2F%2FWOhNz%2F%2F%2F%2F%2F9Y6E3MAAP8gBIADqwAAAAoAAgABAAAAAAABAAAD6P9qAAAXcAAA%2F7YEgAABAAAAAAAAAAAAAAAAAAAABANSAFUDmABVA6AAgAOgAIAAAAAAAAAAKAAAAGYAAADEAAABIwABAAAABABeAAUAAAAAAAIAgAQAAAAAAAQAAN4AAAAAAAAAFQECAAAAAAAAAAEAEgAAAAAAAAAAAAIADgASAAAAAAAAAAMAMAAgAAAAAAAAAAQAEgBQAAAAAAAAAAUAFgBiAAAAAAAAAAYACQB4AAAAAAAAAAgAHACBAAEAAAAAAAEAEgAAAAEAAAAAAAIADgASAAEAAAAAAAMAMAAgAAEAAAAAAAQAEgBQAAEAAAAAAAUAFgBiAAEAAAAAAAYACQB4AAEAAAAAAAgAHACBAAMAAQQJAAEAEgAAAAMAAQQJAAIADgASAAMAAQQJAAMAMAAgAAMAAQQJAAQAEgBQAAMAAQQJAAUAFgBiAAMAAQQJAAYACQB4AAMAAQQJAAgAHACBAE0AYQB0AGgAIABGAG8AbgB0AFIAZQBnAHUAbABhAHIATQBhAHQAaABzACAARgBvAHIAIABNAG8AcgBlACAATQBhAHQAaAAgAEYAbwBuAHQATQBhAHQAaAAgAEYAbwBuAHQAVgBlAHIAcwBpAG8AbgAgADEALgAwTWF0aF9Gb250AE0AYQB0AGgAcwAgAEYAbwByACAATQBvAHIAZQAAAwAAAAAAAAH0APoAAAAAAAAAAAAAAAAAAAAAAAAAALkHEQAAjYUYALIAAAAVFBOxAAE%2F)format('truetype')%3Bfont-weight%3Anormal%3Bfont-style%3Anormal%3B%7D%40font-face%7Bfont-family%3A'round_brackets18549f92a457f2409'%3Bsrc%3Aurl(data%3Afont%2Ftruetype%3Bcharset%3Dutf-8%3Bbase64%2CAAEAAAAMAIAAAwBAT1MvMjwHLFQAAADMAAAATmNtYXDf7xCrAAABHAAAADxjdnQgBAkDLgAAAVgAAAASZ2x5ZmAOz2cAAAFsAAABJGhlYWQOKih8AAACkAAAADZoaGVhCvgVwgAAAsgAAAAkaG10eCA6AAIAAALsAAAADGxvY2EAAARLAAAC%2BAAAABBtYXhwBIgEWQAAAwgAAAAgbmFtZXHR30MAAAMoAAACOXBvc3QDogHPAAAFZAAAACBwcmVwupWEAAAABYQAAAAHAAAGcgGQAAUAAAgACAAAAAAACAAIAAAAAAAAAQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAgICAAAAAo8AMGe%2F57AAAHPgGyAAAAAAACAAEAAQAAABQAAwABAAAAFAAEACgAAAAGAAQAAQACACgAKf%2F%2FAAAAKAAp%2F%2F%2F%2F2f%2FZAAEAAAAAAAAAAAFUAFYBAAAsAKgDgAAyAAcAAAACAAAAKgDVA1UAAwAHAAA1MxEjEyMRM9XVq4CAKgMr%2FQAC1QABAAD%2B0AIgBtAACQBNGAGwChCwA9SwAxCwAtSwChCwBdSwBRCwANSwAxCwBzywAhCwCDwAsAoQsAPUsAMQsAfUsAoQsAXUsAoQsADUsAMQsAI8sAcQsAg8MTAREAEzABEQASMAAZCQ%2FnABkJD%2BcALQ%2FZD%2BcAGQAnACcAGQ%2FnAAAQAA%2FtACIAbQAAkATRgBsAoQsAPUsAMQsALUsAoQsAXUsAUQsADUsAMQsAc8sAIQsAg8ALAKELAD1LADELAH1LAKELAF1LAKELAA1LADELACPLAHELAIPDEwARABIwAREAEzAAIg%2FnCQAZD%2BcJABkALQ%2FZD%2BcAGQAnACcAGQ%2FnAAAQAAAAEAAPW2NYFfDzz1AAMIAP%2F%2F%2F%2F%2FVre7u%2F%2F%2F%2F%2F9Wt7u4AAP7QA7cG0AAAAAoAAgABAAAAAAABAAAHPv5OAAAXcAAA%2F%2F4DtwABAAAAAAAAAAAAAAAAAAAAAwDVAAACIAAAAiAAAAAAAAAAAAAkAAAAowAAASQAAQAAAAMACgACAAAAAAACAIAEAAAAAAAEAABNAAAAAAAAABUBAgAAAAAAAAABAD4AAAAAAAAAAAACAA4APgAAAAAAAAADAFwATAAAAAAAAAAEAD4AqAAAAAAAAAAFABYA5gAAAAAAAAAGAB8A%2FAAAAAAAAAAIABwBGwABAAAAAAABAD4AAAABAAAAAAACAA4APgABAAAAAAADAFwATAABAAAAAAAEAD4AqAABAAAAAAAFABYA5gABAAAAAAAGAB8A%2FAABAAAAAAAIABwBGwADAAEECQABAD4AAAADAAEECQACAA4APgADAAEECQADAFwATAADAAEECQAEAD4AqAADAAEECQAFABYA5gADAAEECQAGAB8A%2FAADAAEECQAIABwBGwBSAG8AdQBuAGQAIABiAHIAYQBjAGsAZQB0AHMAIAB3AGkAdABoACAAYQBzAGMAZQBuAHQAIAAxADgANQA0AFIAZQBnAHUAbABhAHIATQBhAHQAaABzACAARgBvAHIAIABNAG8AcgBlACAAUgBvAHUAbgBkACAAYgByAGEAYwBrAGUAdABzACAAdwBpAHQAaAAgAGEAcwBjAGUAbgB0ACAAMQA4ADUANABSAG8AdQBuAGQAIABiAHIAYQBjAGsAZQB0AHMAIAB3AGkAdABoACAAYQBzAGMAZQBuAHQAIAAxADgANQA0AFYAZQByAHMAaQBvAG4AIAAyAC4AMFJvdW5kX2JyYWNrZXRzX3dpdGhfYXNjZW50XzE4NTQATQBhAHQAaABzACAARgBvAHIAIABNAG8AcgBlAAAAAAMAAAAAAAADnwHPAAAAAAAAAAAAAAAAAAAAAAAAAAC5B%2F8AAY2FAA%3D%3D)format('truetype')%3Bfont-weight%3Anormal%3Bfont-style%3Anormal%3B%7D%3C%2Fstyle%3E%3C%2Fdefs%3E%3Ctext%20font-family%3D%22round_brackets18549f92a457f2409%22%20font-size%3D%2218%22%20text-anchor%3D%22middle%22%20x%3D%223.5%22%20y%3D%2216%22%3E(%3C%2Ftext%3E%3Ctext%20font-family%3D%22Times%20New%20Roman%22%20font-size%3D%2218%22%20font-style%3D%22italic%22%20text-anchor%3D%22middle%22%20x%3D%2210.5%22%20y%3D%2216%22%3Ep%3C%2Ftext%3E%3Ctext%20font-family%3D%22math1ae7ab27346316fca54e1f24429%22%20font-size%3D%2216%22%20text-anchor%3D%22middle%22%20x%3D%2225.5%22%20y%3D%2216%22%3E%26%23x2227%3B%3C%2Ftext%3E%3Ctext%20font-family%3D%22Times%20New%20Roman%22%20font-size%3D%2218%22%20font-style%3D%22italic%22%20text-anchor%3D%22middle%22%20x%3D%2239.5%22%20y%3D%2216%22%3Eq%3C%2Ftext%3E%3Ctext%20font-family%3D%22round_brackets18549f92a457f2409%22%20font-size%3D%2218%22%20text-anchor%3D%22middle%22%20x%3D%2247.5%22%20y%3D%2216%22%3E)%3C%2Ftext%3E%3Ctext%20font-family%3D%22math1ae7ab27346316fca54e1f24429%22%20font-size%3D%2216%22%20text-anchor%3D%22middle%22%20x%3D%2260.5%22%20y%3D%2216%22%3E%26%23x2228%3B%3C%2Ftext%3E%3Ctext%20font-family%3D%22round_brackets18549f92a457f2409%22%20font-size%3D%2218%22%20text-anchor%3D%22middle%22%20x%3D%2273.5%22%20y%3D%2216%22%3E(%3C%2Ftext%3E%3Ctext%20font-family%3D%22Times%20New%20Roman%22%20font-size%3D%2218%22%20font-style%3D%22italic%22%20text-anchor%3D%22middle%22%20x%3D%2280.5%22%20y%3D%2216%22%3Ep%3C%2Ftext%3E%3Ctext%20font-family%3D%22math1ae7ab27346316fca54e1f24429%22%20font-size%3D%2216%22%20text-anchor%3D%22middle%22%20x%3D%2295.5%22%20y%3D%2216%22%3E%26%23x2227%3B%3C%2Ftext%3E%3Ctext%20font-family%3D%22math1ae7ab27346316fca54e1f24429%22%20font-size%3D%2216%22%20text-anchor%3D%22middle%22%20x%3D%22113.5%22%20y%3D%2216%22%3E%26%23xAC%3B%3C%2Ftext%3E%3Ctext%20font-family%3D%22Times%20New%20Roman%22%20font-size%3D%2218%22%20font-style%3D%22italic%22%20text-anchor%3D%22middle%22%20x%3D%22124.5%22%20y%3D%2216%22%3Eq%3C%2Ftext%3E%3Ctext%20font-family%3D%22round_brackets18549f92a457f2409%22%20font-size%3D%2218%22%20text-anchor%3D%22middle%22%20x%3D%22132.5%22%20y%3D%2216%22%3E)%3C%2Ftext%3E%3Ctext%20font-family%3D%22math1ae7ab27346316fca54e1f24429%22%20font-size%3D%2216%22%20text-anchor%3D%22middle%22%20x%3D%22145.5%22%20y%3D%2216%22%3E%26%23x2228%3B%3C%2Ftext%3E%3Ctext%20font-family%3D%22round_brackets18549f92a457f2409%22%20font-size%3D%2218%22%20text-anchor%3D%22middle%22%20x%3D%22158.5%22%20y%3D%2216%22%3E(%3C%2Ftext%3E%3Ctext%20font-family%3D%22math1ae7ab27346316fca54e1f24429%22%20font-size%3D%2216%22%20text-anchor%3D%22middle%22%20x%3D%22169.5%22%20y%3D%2216%22%3E%26%23xAC%3B%3C%2Ftext%3E%3Ctext%20font-family%3D%22Times%20New%20Roman%22%20font-size%3D%2218%22%20font-style%3D%22italic%22%20text-anchor%3D%22middle%22%20x%3D%22180.5%22%20y%3D%2216%22%3Ep%3C%2Ftext%3E%3Ctext%20font-family%3D%22math1ae7ab27346316fca54e1f24429%22%20font-size%3D%2216%22%20text-anchor%3D%22middle%22%20x%3D%22195.5%22%20y%3D%2216%22%3E%26%23x2227%3B%3C%2Ftext%3E%3Ctext%20font-family%3D%22Times%20New%20Roman%22%20font-size%3D%2218%22%20font-style%3D%22italic%22%20text-anchor%3D%22middle%22%20x%3D%22209.5%22%20y%3D%2216%22%3Eq%3C%2Ftext%3E%3Ctext%20font-family%3D%22round_brackets18549f92a457f2409%22%20font-size%3D%2218%22%20text-anchor%3D%22middle%22%20x%3D%22217.5%22%20y%3D%2216%22%3E)%3C%2Ftext%3E%3C%2Fsvg%3E"
+  ],
+  "以下哪一个是的成真指派？": [
+    "010"
+  ],
+  "以下命题公式中，(    )是矛盾式。": [
+    "data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Awrs%3D%22http%3A%2F%2Fwww.wiris.com%2Fxml%2Fcvs-extension%22%20height%3D%2239%22%20width%3D%2297%22%20wrs%3Abaseline%3D%2216%22%3E%3C!--MathML%3A%20%3Cmath%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F1998%2FMath%2FMathML%22%3E%3Cmo%3E%26%23xAC%3B%3C%2Fmo%3E%3Cmo%3E(%3C%2Fmo%3E%3Cmi%3Ep%3C%2Fmi%3E%3Cmunder%3E%3Cmrow%3E%3Cmo%3E%26%23x2192%3B%3C%2Fmo%3E%3Cmi%3Eq%3C%2Fmi%3E%3C%2Fmrow%3E%3Cmrow%2F%3E%3C%2Fmunder%3E%3Cmo%3E)%3C%2Fmo%3E%3Cmo%3E%26%23x2227%3B%3C%2Fmo%3E%3Cmi%3Eq%3C%2Fmi%3E%3C%2Fmath%3E--%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%40font-face%7Bfont-family%3A'math1a2060e9ddff9ade8a67b0318b0'%3Bsrc%3Aurl(data%3Afont%2Ftruetype%3Bcharset%3Dutf-8%3Bbase64%2CAAEAAAAMAIAAAwBAT1MvMi7iBBMAAADMAAAATmNtYXDEvmKUAAABHAAAAERjdnQgDVUNBwAAAWAAAAA6Z2x5ZoPi2VsAAAGcAAABDWhlYWQQC2qxAAACrAAAADZoaGVhCGsXSAAAAuQAAAAkaG10eE2rRkcAAAMIAAAAEGxvY2EAHTwYAAADGAAAABRtYXhwBT0FPgAAAywAAAAgbmFtZaBxlY4AAANMAAABn3Bvc3QB9wD6AAAE7AAAACBwcmVwa1uragAABQwAAAAUAAADSwGQAAUAAAQABAAAAAAABAAEAAAAAAAAAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAgICAAAAAg1UADev96AAAD6ACWAAAAAAACAAEAAQAAABQAAwABAAAAFAAEADAAAAAIAAgAAgAAAKwhkiIn%2F%2F8AAACsIZIiJ%2F%2F%2F%2F1XecN3cAAEAAAAAAAAAAAAAAVQDLACAAQAAVgAqAlgCHgEOASwCLABaAYACgACgANQAgAAAAAAAAAArAFUAgACrANUBAAErAAcAAAACAFUAAAMAA6sAAwAHAAAzESERJSERIVUCq%2F2rAgD%2BAAOr%2FFVVAwAAAQBVAKsDKwIrAAUAHxiwBhCxBAP0sALUsQUF9ACwBBCwBC%2BxAgX0sADUMDElIxEhNSEDK1b9gALWqwEqVgABAIAAqgOAAlUACAAfALEAABMQsQAG5bEAARMQsAE8sQMP5bEHBfWxBQ%2F1MBMhJzUNATU3IYACK1YBK%2F7VVv3VAapBatXWa0AAAQCAAAADKwJVAAYANhgBsAcQsQAD9LEGBeWxAQrmsQIF9rEDCvaxBAXmsQgD5ACxAAA%2FsgYDBDw8PLEBB%2FawAjwwMTMBMwEjCQGAASpWAStV%2Fv%2F%2FAAJV%2FasCCv32AAAAAAEAAAABAADVeM5BXw889QADBAD%2F%2F%2F%2F%2F1joTc%2F%2F%2F%2F%2F%2FWOhNzAAD%2FIASAA6sAAAAKAAIAAQAAAAAAAQAAA%2Bj%2FagAAF3AAAP%2B2BIAAAQAAAAAAAAAAAAAAAAAAAAQDUgBVA5gAVQQAAIADoACAAAAAAAAAACgAAABmAAAArwAAAQ0AAQAAAAQAXgAFAAAAAAACAIAEAAAAAAAEAADeAAAAAAAAABUBAgAAAAAAAAABABIAAAAAAAAAAAACAA4AEgAAAAAAAAADADAAIAAAAAAAAAAEABIAUAAAAAAAAAAFABYAYgAAAAAAAAAGAAkAeAAAAAAAAAAIABwAgQABAAAAAAABABIAAAABAAAAAAACAA4AEgABAAAAAAADADAAIAABAAAAAAAEABIAUAABAAAAAAAFABYAYgABAAAAAAAGAAkAeAABAAAAAAAIABwAgQADAAEECQABABIAAAADAAEECQACAA4AEgADAAEECQADADAAIAADAAEECQAEABIAUAADAAEECQAFABYAYgADAAEECQAGAAkAeAADAAEECQAIABwAgQBNAGEAdABoACAARgBvAG4AdABSAGUAZwB1AGwAYQByAE0AYQB0AGgAcwAgAEYAbwByACAATQBvAHIAZQAgAE0AYQB0AGgAIABGAG8AbgB0AE0AYQB0AGgAIABGAG8AbgB0AFYAZQByAHMAaQBvAG4AIAAxAC4AME1hdGhfRm9udABNAGEAdABoAHMAIABGAG8AcgAgAE0AbwByAGUAAAMAAAAAAAAB9AD6AAAAAAAAAAAAAAAAAAAAAAAAAAC5BxEAAI2FGACyAAAAFRQTsQABPw%3D%3D)format('truetype')%3Bfont-weight%3Anormal%3Bfont-style%3Anormal%3B%7D%40font-face%7Bfont-family%3A'round_brackets18549f92a457f2409'%3Bsrc%3Aurl(data%3Afont%2Ftruetype%3Bcharset%3Dutf-8%3Bbase64%2CAAEAAAAMAIAAAwBAT1MvMjwHLFQAAADMAAAATmNtYXDf7xCrAAABHAAAADxjdnQgBAkDLgAAAVgAAAASZ2x5ZmAOz2cAAAFsAAABJGhlYWQOKih8AAACkAAAADZoaGVhCvgVwgAAAsgAAAAkaG10eCA6AAIAAALsAAAADGxvY2EAAARLAAAC%2BAAAABBtYXhwBIgEWQAAAwgAAAAgbmFtZXHR30MAAAMoAAACOXBvc3QDogHPAAAFZAAAACBwcmVwupWEAAAABYQAAAAHAAAGcgGQAAUAAAgACAAAAAAACAAIAAAAAAAAAQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAgICAAAAAo8AMGe%2F57AAAHPgGyAAAAAAACAAEAAQAAABQAAwABAAAAFAAEACgAAAAGAAQAAQACACgAKf%2F%2FAAAAKAAp%2F%2F%2F%2F2f%2FZAAEAAAAAAAAAAAFUAFYBAAAsAKgDgAAyAAcAAAACAAAAKgDVA1UAAwAHAAA1MxEjEyMRM9XVq4CAKgMr%2FQAC1QABAAD%2B0AIgBtAACQBNGAGwChCwA9SwAxCwAtSwChCwBdSwBRCwANSwAxCwBzywAhCwCDwAsAoQsAPUsAMQsAfUsAoQsAXUsAoQsADUsAMQsAI8sAcQsAg8MTAREAEzABEQASMAAZCQ%2FnABkJD%2BcALQ%2FZD%2BcAGQAnACcAGQ%2FnAAAQAA%2FtACIAbQAAkATRgBsAoQsAPUsAMQsALUsAoQsAXUsAUQsADUsAMQsAc8sAIQsAg8ALAKELAD1LADELAH1LAKELAF1LAKELAA1LADELACPLAHELAIPDEwARABIwAREAEzAAIg%2FnCQAZD%2BcJABkALQ%2FZD%2BcAGQAnACcAGQ%2FnAAAQAAAAEAAPW2NYFfDzz1AAMIAP%2F%2F%2F%2F%2FVre7u%2F%2F%2F%2F%2F9Wt7u4AAP7QA7cG0AAAAAoAAgABAAAAAAABAAAHPv5OAAAXcAAA%2F%2F4DtwABAAAAAAAAAAAAAAAAAAAAAwDVAAACIAAAAiAAAAAAAAAAAAAkAAAAowAAASQAAQAAAAMACgACAAAAAAACAIAEAAAAAAAEAABNAAAAAAAAABUBAgAAAAAAAAABAD4AAAAAAAAAAAACAA4APgAAAAAAAAADAFwATAAAAAAAAAAEAD4AqAAAAAAAAAAFABYA5gAAAAAAAAAGAB8A%2FAAAAAAAAAAIABwBGwABAAAAAAABAD4AAAABAAAAAAACAA4APgABAAAAAAADAFwATAABAAAAAAAEAD4AqAABAAAAAAAFABYA5gABAAAAAAAGAB8A%2FAABAAAAAAAIABwBGwADAAEECQABAD4AAAADAAEECQACAA4APgADAAEECQADAFwATAADAAEECQAEAD4AqAADAAEECQAFABYA5gADAAEECQAGAB8A%2FAADAAEECQAIABwBGwBSAG8AdQBuAGQAIABiAHIAYQBjAGsAZQB0AHMAIAB3AGkAdABoACAAYQBzAGMAZQBuAHQAIAAxADgANQA0AFIAZQBnAHUAbABhAHIATQBhAHQAaABzACAARgBvAHIAIABNAG8AcgBlACAAUgBvAHUAbgBkACAAYgByAGEAYwBrAGUAdABzACAAdwBpAHQAaAAgAGEAcwBjAGUAbgB0ACAAMQA4ADUANABSAG8AdQBuAGQAIABiAHIAYQBjAGsAZQB0AHMAIAB3AGkAdABoACAAYQBzAGMAZQBuAHQAIAAxADgANQA0AFYAZQByAHMAaQBvAG4AIAAyAC4AMFJvdW5kX2JyYWNrZXRzX3dpdGhfYXNjZW50XzE4NTQATQBhAHQAaABzACAARgBvAHIAIABNAG8AcgBlAAAAAAMAAAAAAAADnwHPAAAAAAAAAAAAAAAAAAAAAAAAAAC5B%2F8AAY2FAA%3D%3D)format('truetype')%3Bfont-weight%3Anormal%3Bfont-style%3Anormal%3B%7D%3C%2Fstyle%3E%3C%2Fdefs%3E%3Ctext%20font-family%3D%22math1a2060e9ddff9ade8a67b0318b0%22%20font-size%3D%2216%22%20text-anchor%3D%22middle%22%20x%3D%228.5%22%20y%3D%2216%22%3E%26%23xAC%3B%3C%2Ftext%3E%3Ctext%20font-family%3D%22round_brackets18549f92a457f2409%22%20font-size%3D%2218%22%20text-anchor%3D%22middle%22%20x%3D%2218.5%22%20y%3D%2216%22%3E(%3C%2Ftext%3E%3Ctext%20font-family%3D%22Times%20New%20Roman%22%20font-size%3D%2218%22%20font-style%3D%22italic%22%20text-anchor%3D%22middle%22%20x%3D%2225.5%22%20y%3D%2216%22%3Ep%3C%2Ftext%3E%3Ctext%20font-family%3D%22math1a2060e9ddff9ade8a67b0318b0%22%20font-size%3D%2216%22%20text-anchor%3D%22middle%22%20x%3D%2241.5%22%20y%3D%2216%22%3E%26%23x2192%3B%3C%2Ftext%3E%3Ctext%20font-family%3D%22Times%20New%20Roman%22%20font-size%3D%2218%22%20font-style%3D%22italic%22%20text-anchor%3D%22middle%22%20x%3D%2255.5%22%20y%3D%2216%22%3Eq%3C%2Ftext%3E%3Ctext%20font-family%3D%22round_brackets18549f92a457f2409%22%20font-size%3D%2218%22%20text-anchor%3D%22middle%22%20x%3D%2263.5%22%20y%3D%2216%22%3E)%3C%2Ftext%3E%3Ctext%20font-family%3D%22math1a2060e9ddff9ade8a67b0318b0%22%20font-size%3D%2216%22%20text-anchor%3D%22middle%22%20x%3D%2276.5%22%20y%3D%2216%22%3E%26%23x2227%3B%3C%2Ftext%3E%3Ctext%20font-family%3D%22Times%20New%20Roman%22%20font-size%3D%2218%22%20font-style%3D%22italic%22%20text-anchor%3D%22middle%22%20x%3D%2290.5%22%20y%3D%2216%22%3Eq%3C%2Ftext%3E%3C%2Fsvg%3E"
+  ],
+  "、﹁P∨Q∧R→S是以下哪个合式公式的简化形式？": [
+    "((((﹁P)∨Q)∧R)→S)"
+  ],
+  "既是合取范式也是析取范式的是？": [
+    "﹁P∧﹁Q"
+  ],
+  "P→ (P∧Q)": [
+    "非重言可满足式"
+  ],
+  "使用下述谓词：P(x): x是熊猫、Q(x): x是飞鸟、R(x): x是绿色的，及量词表示自然语句“没有熊猫是绿色的话，就至少有一只飞鸟存在”为（  ）。": [
+    "﹁(∃x)(P(x)∧R(x)) ⇒ (∃x) Q(x)"
+  ],
+  "下列公式中不是谓词公式的是（    ）。": [
+    "∀x(P(x)∧R(x,y)"
+  ],
+  "设F(x) :x 是火车，G(y):y 是汽车，H(x, y) :x 比y 快，则语句“某些汽车比所有的火车慢”可表示为（    ）。": [
+    "∃y(G(y)∧∀x(F(x)⇒H(x,y)))"
+  ],
+  "命题“有的学生不踢足球”的逻辑符号化表示为?\n\n设D：全总个体域，F(x)：x是足球，M(x) ：x是学生，H(x,y)：x不踢y": [
+    "∃x(M(x)∧∀y(F(y)→H(x,y)))"
+  ],
+  "“不是每一个实数都是有理数”的逻辑符号化为? \n\n设R(x):x是实数,Q(x):x是有理数。": [
+    "﹁(∀x(R(x)→Q(x))"
+  ],
+  "公式∀x∀y(P(x,y)∨Q(y,z))∧∃xP(x,y)可换名为（  ），使其无既是约束出现又是自由出现的变量，且变量不同时被不同量词约束。": [
+    "∀x∀u(P(x,u)∨Q(u,z))∧∃tP(t,y)"
+  ],
+  "对一阶逻辑公式∀x∃y(A(x)∧B(y))→C(y,z)的说法正确的是(    )。": [
+    "x是约束的，y既是约束的又是自由的，z是自由的"
+  ],
+  "“人总是要死的”谓词公式表示为（  ）。\n\n（论域为全总个体域）M(x)：x是人；Mortal(x)：x是要死的。": [
+    "∀x(M(x)→Mortal(x))"
+  ],
+  "下列公式中,(        )中的x和y都既是自由变元又是约束变元。": [
+    "∀xP(x,y) →∃y Q(x,y)"
+  ],
+  "量词的约束范围称为量词的(       )。": [
+    "辖域"
+  ],
+  "设 xF(x):x 是人，H(x,y):x与y一样高，则命题“人都不一样高”的符号化形式为(        )。": [
+    "∀x( F(x)→∀yF(y) ∧ ﹁H(x,y))"
+  ],
+  "设D：全总个体域，F（x）：x是花，M(x) ：x是人，H(x,y)：x喜欢y。则命题“有的人喜欢所有的花”的逻辑符号化为 (   )": [
+    "∃x(M(x)∧∀y(F(y)→H(x,y)))"
+  ],
+  "设P(x)：x是聪明的，M(x)：x是人，则命题“尽管有人聪明，但未必一切人都聪明”的符号化 (   )": [
+    "∃x(M(x)∧P(x))∧﹁(∀x(M(x)→P(x)))"
+  ],
+  "设H（x）：x是人，  P（x）：x犯错误。“没有不犯错误的人”的逻辑符号化为 (   )": [
+    "﹁(∃x ( H(x)∧﹁P(x)))",
+    "∀x( H(x)→P(x))"
+  ],
+  "设C(x): x 是国家足球队选手，G(x): x 是健壮的。\n     命题“没有一个国家足球队选手不是健壮的”可符号化为（    ）。": [
+    "￢∃x(C(x)∧￢G(x))"
+  ],
+  "在谓词公式∀x(F(x) →G(y))→∃y(H(x) ∧L(x,y,z)中，∀x的瞎域是": [
+    "(F(x) →G(y))"
+  ],
+  "有命题如下：任意实数x，总存在实数y，使得y<x成立。设：\nF(x)：x是实数\nG(x, y)：x < y\n在谓词逻辑范围内对该命题正确的符号化表示是？": [
+    "∀x∃y(F(x)→(F(y)∧G(y,x)))"
+  ],
+  "以下哪个不是谓词公式？": [
+    "F(x)﹁∨G(x,y)",
+    "F(x)﹁∨G(x,y)"
+  ],
+  "在公式：∀x(F(x)→G(x)∧H(y))∧∃xR(z)中，自由出现的变元是": [
+    "y"
+  ],
+  "谓词公式  ∀x(P(x) V∃yR(y) )→ Q(x) 中，量词 x的辖域是": [
+    "P(x) V∃yR(y)"
+  ],
+  "设L(x) : x 是学员，J(x): x是老师，A(x, y): x钦佩y，      命题“所有学员都钦佩某些老师”符号化为（    ）。": [
+    "∀x(L(x)⇒∃y(J(y)∧A(x,y)))"
+  ],
+  "∀x(P(x)∧Q(x,a))⇒∀y(P(y)∧R(y,x)∧Q(y,a))的子公式": [
+    "y(P(y))"
+  ],
+  "假设论域为正整数，令谓词Odd(x)表示“x是奇数”；Even(x)表示“x是偶数”；Prime(x)表示“x是素数”；Equal(x, y)表示“x=y”；Greater(x, y)表示“x>y”。\n∀x∃y(Greater(y,x)∧Prime(y)\n则 真值为假。": [
+    "错"
+  ],
+  "设P(x): x是研究生，Q(x)：x曾经读过大学，命题“所有的研究生都读过大学”符号化为∀x( P(x)∧Q(x))": [
+    "错"
+  ],
+  "设 P（x）：x是素数， E(x)：x 是偶数，O(x)：x是奇数 N (x,y)：x可以整除y。则谓词  ∀x( P(x)→∃y(O(y)∧ N(y,x)))\n的自然语言是：任意x，如果x是素数则存在一个y，y是奇数且y整除x 。": [
+    "对"
+  ],
+  "使用下述谓词：\n    P(x): x高兴、Q(x): x是学生、R(x): x努力学习，及量词表示自然语句\n            “如果所有学生都努力学习，那么张老师就会高兴”为 \n   ∀x(Q(x)ΛR(x) →P(张老师))": [
+    "错"
+  ],
+  "设p: 发生了堵车，q: 他起晚了，r: 他迟到了，则用逻辑符号表示命题“今天虽然他起晚了，但是没有堵车，所以他没有迟到。”为 q→¬p∧¬r": [
+    "错"
+  ],
+  "对每个集合A，有A ∈P(A)": [
+    "对"
+  ],
+  "{a,b}∈{a,b,c,{a,b,c}}": [
+    "对",
+    "错"
+  ],
+  "对于每个集合A，A⊆ 2A。": [
+    "错"
+  ],
+  "对于每个集合A，A⊆ A。": [
+    "对"
+  ],
+  "若A⊆B，则2A⊆ 2B。": [
+    "对"
+  ],
+  "对于每个集合A，Φ∈ 2A 。": [
+    "对"
+  ],
+  "对于每个集合A，Φ⊆ A。": [
+    "对"
+  ],
+  "对于每个集合A，{A}∈ 2A 。": [
+    "对"
+  ],
+  "A,B,C 是三个集合，则下列推理正确的是": [
+    "A⊆B, B⊆C => A⊆C"
+  ],
+  "设A,B,R是三个集合，其中R是实数集，\nA={x|-1 <= x <= 1,x∈R},B={x|0 <= x <= 2,x∈R},则 A-B=": [
+    "{x | -1 <= x < 0, x∈R}"
+  ],
+  "设A,B,R是三个集合，其中R是实数集，\nA={x|-1 <= x <= 1,x∈R},B={x|0 <= x <= 2,x∈R},则 B-A=": [
+    "{x | 1 < x <= 2, x∈R}"
+  ],
+  "设A,B,R是三个集合，其中R是实数集，\nA={x|-1 <= x <= 1,x∈R},B={x|0 <= x <= 2,x∈R},则 B∩A=": [
+    "{x | 0 <= x <= 1, x∈R}"
+  ],
+  "设A是Φ，P(Φ)，P(P(Φ)),P(P(P(Φ))),四个元素组成的集合（其中为空集），则以下集合中是的广义并的子集的有": [
+    "Φ",
+    "{Φ}"
+  ],
+  "设S={N，Q，R}，下列命题正确的是 (   )": [
+    "N⊂Q，Q⊂R，则N⊂R"
+  ],
+  "A,B为两个集合,以下判断错误的是 (   )": [
+    "若A-C⊆B-C，则A⊆B"
+  ],
+  "有多少个能被5整除的三位正整数（100~999）？": [
+    "180"
+  ],
+  "给定集合S={1,a,{2},3}和集合R={{a},2,3,4},以下是真命题的有( )": [
+    "Ф⊆｛｛3｝，4｝"
+  ],
+  "给定集合S={Ф，1,2,3}，P(S)是S的幂集,以下是真命题的为(     )。": [
+    "{Ф, {Ф}}⊆P(S)"
+  ],
+  "{Φ}不是下列哪个集合的子集？(      )": [
+    "{{Φ}}"
+  ],
+  "集合{a,{b,{c}}}的幂集的元素个数为(     )。": [
+    "4"
+  ],
+  "设集合A={0,1}，B={0,1,{0,1}}则(        )不成立。": [
+    "{A}∈B"
+  ],
+  "可称为集合的是（    ）。": [
+    "某本书中第k页上文字的全体"
+  ],
+  "不空的集合是（     ）。": [
+    "data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Awrs%3D%22http%3A%2F%2Fwww.wiris.com%2Fxml%2Fcvs-extension%22%20height%3D%2219%22%20width%3D%2217%22%20wrs%3Abaseline%3D%2216%22%3E%3C!--MathML%3A%20%3Cmath%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F1998%2FMath%2FMathML%22%3E%3Cmo%3E%26%23x2208%3B%3C%2Fmo%3E%3C%2Fmath%3E--%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%40font-face%7Bfont-family%3A'math15c341d10c5596a0fd920fda9f3'%3Bsrc%3Aurl(data%3Afont%2Ftruetype%3Bcharset%3Dutf-8%3Bbase64%2CAAEAAAAMAIAAAwBAT1MvMi7iBBMAAADMAAAATmNtYXDEvmKUAAABHAAAADRjdnQgDVUNBwAAAVAAAAA6Z2x5ZoPi2VsAAAGMAAAAwWhlYWQQC2qxAAACUAAAADZoaGVhCGsXSAAAAogAAAAkaG10eE2rRkcAAAKsAAAACGxvY2EAHTwYAAACtAAAAAxtYXhwBT0FPgAAAsAAAAAgbmFtZaBxlY4AAALgAAABn3Bvc3QB9wD6AAAEgAAAACBwcmVwa1uragAABKAAAAAUAAADSwGQAAUAAAQABAAAAAAABAAEAAAAAAAAAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAgICAAAAAg1UADev96AAAD6ACWAAAAAAACAAEAAQAAABQAAwABAAAAFAAEACAAAAAEAAQAAQAAIgj%2F%2FwAAIgj%2F%2F935AAEAAAAAAAABVAMsAIABAABWACoCWAIeAQ4BLAIsAFoBgAKAAKAA1ACAAAAAAAAAACsAVQCAAKsA1QEAASsABwAAAAIAVQAAAwADqwADAAcAADMRIRElIREhVQKr%2FasCAP4AA6v8VVUDAAABAIAAAAKAAwAAFABTGAGwFRCxFAP2sQsF%2FbAIPLENA%2FWwBjywCtWxFgPmsQMQPDywEBCwDdWwBjwAsRAAP7ASPLEPBf2wDTyxCwT1sQgF%2FbEEBPWwBjyxAwX9sAE8MTAaATsBFSMgBhUhFQUUFiEzFSMgAjWAq%2F9WK%2F8AgAGr%2FlWAAQArVf8AqwIAAQBVq1VVAVWrVQEAgAAAAAABAAAAAQAA1XjOQV8PPPUAAwQA%2F%2F%2F%2F%2F9Y6E3P%2F%2F%2F%2F%2F1joTcwAA%2FyAEgAOrAAAACgACAAEAAAAAAAEAAAPo%2F2oAABdwAAD%2FtgSAAAEAAAAAAAAAAAAAAAAAAAACA1IAVQMAAIAAAAAAAAAAKAAAAMEAAQAAAAIAXgAFAAAAAAACAIAEAAAAAAAEAADeAAAAAAAAABUBAgAAAAAAAAABABIAAAAAAAAAAAACAA4AEgAAAAAAAAADADAAIAAAAAAAAAAEABIAUAAAAAAAAAAFABYAYgAAAAAAAAAGAAkAeAAAAAAAAAAIABwAgQABAAAAAAABABIAAAABAAAAAAACAA4AEgABAAAAAAADADAAIAABAAAAAAAEABIAUAABAAAAAAAFABYAYgABAAAAAAAGAAkAeAABAAAAAAAIABwAgQADAAEECQABABIAAAADAAEECQACAA4AEgADAAEECQADADAAIAADAAEECQAEABIAUAADAAEECQAFABYAYgADAAEECQAGAAkAeAADAAEECQAIABwAgQBNAGEAdABoACAARgBvAG4AdABSAGUAZwB1AGwAYQByAE0AYQB0AGgAcwAgAEYAbwByACAATQBvAHIAZQAgAE0AYQB0AGgAIABGAG8AbgB0AE0AYQB0AGgAIABGAG8AbgB0AFYAZQByAHMAaQBvAG4AIAAxAC4AME1hdGhfRm9udABNAGEAdABoAHMAIABGAG8AcgAgAE0AbwByAGUAAAMAAAAAAAAB9AD6AAAAAAAAAAAAAAAAAAAAAAAAAAC5BxEAAI2FGACyAAAAFRQTsQABPw%3D%3D)format('truetype')%3Bfont-weight%3Anormal%3Bfont-style%3Anormal%3B%7D%3C%2Fstyle%3E%3C%2Fdefs%3E%3Ctext%20font-family%3D%22math15c341d10c5596a0fd920fda9f3%22%20font-size%3D%2216%22%20text-anchor%3D%22middle%22%20x%3D%228.5%22%20y%3D%2216%22%3E%26%23x2208%3B%3C%2Ftext%3E%3C%2Fsvg%3E"
+  ],
+  "A、B、C是任意集合，以下正确的是？": [
+    "data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Awrs%3D%22http%3A%2F%2Fwww.wiris.com%2Fxml%2Fcvs-extension%22%20height%3D%2222%22%20width%3D%22198%22%20wrs%3Abaseline%3D%2216%22%3E%3C!--MathML%3A%20%3Cmath%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F1998%2FMath%2FMathML%22%3E%3Cmo%3E(%3C%2Fmo%3E%3Cmi%3EA%3C%2Fmi%3E%3Cmo%3E%26%23x2291%3B%3C%2Fmo%3E%3Cmi%3EB%3C%2Fmi%3E%3Cmo%3E)%3C%2Fmo%3E%3Cmo%3E%26%23x2227%3B%3C%2Fmo%3E%3Cmo%3E(%3C%2Fmo%3E%3Cmi%3EB%3C%2Fmi%3E%3Cmo%3E%26%23x2291%3B%3C%2Fmo%3E%3Cmi%3EC%3C%2Fmi%3E%3Cmo%3E)%3C%2Fmo%3E%3Cmo%3E%26%23x21D2%3B%3C%2Fmo%3E%3Cmi%3EA%3C%2Fmi%3E%3Cmo%3E%26%23x21D2%3B%3C%2Fmo%3E%3Cmi%3EC%3C%2Fmi%3E%3C%2Fmath%3E--%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%40font-face%7Bfont-family%3A'math1c844261e3c1a2c16d055cb0be5'%3Bsrc%3Aurl(data%3Afont%2Ftruetype%3Bcharset%3Dutf-8%3Bbase64%2CAAEAAAAMAIAAAwBAT1MvMi7iBBMAAADMAAAATmNtYXDEvmKUAAABHAAAAERjdnQgDVUNBwAAAWAAAAA6Z2x5ZoPi2VsAAAGcAAABb2hlYWQQC2qxAAADDAAAADZoaGVhCGsXSAAAA0QAAAAkaG10eE2rRkcAAANoAAAAEGxvY2EAHTwYAAADeAAAABRtYXhwBT0FPgAAA4wAAAAgbmFtZaBxlY4AAAOsAAABn3Bvc3QB9wD6AAAFTAAAACBwcmVwa1uragAABWwAAAAUAAADSwGQAAUAAAQABAAAAAAABAAEAAAAAAAAAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAgICAAAAAg1UADev96AAAD6ACWAAAAAAACAAEAAQAAABQAAwABAAAAFAAEADAAAAAIAAgAAgAAIdIiJyKR%2F%2F8AACHSIicikf%2F%2F3i%2Fd291yAAEAAAAAAAAAAAAAAVQDLACAAQAAVgAqAlgCHgEOASwCLABaAYACgACgANQAgAAAAAAAAAArAFUAgACrANUBAAErAAcAAAACAFUAAAMAA6sAAwAHAAAzESERJSERIVUCq%2F2rAgD%2BAAOr%2FFVVAwAAAQCAAIADgAKAAAsATBgBsAwQsQED9LAHPLAL1bAJPLEED%2BaxAwP2sAU8sAQQsQ0D5ACxAAATELEJBvSxCQETELEHBfWxBQPmsAkQsQsF9LEBBfWxAwPmMDETFSEHCQEXIRUhFweAAgArASv%2B1Sv%2BAAJVKysBVVWAAQABAIBVKysAAQCAAAADKwJVAAYANhgBsAcQsQAD9LEGBeWxAQrmsQIF9rEDCvaxBAXmsQgD5ACxAAA%2FsgYDBDw8PLEBB%2FawAjwwMTMBMwEjCQGAASpWAStV%2Fv%2F%2FAAJV%2FasCCv32AAIAgAAAAtUCgAAHAAsANxgBsAwQsQsD9LAHPLEDBeWwCdWxBQE8PLENA%2BQAsQsAP7EJBf2xBwX8sQUF9bEDCvaxAQX1MDETIRUhESEVIRUhFSGAAlX%2BAAIA%2FasCVf2rAoBV%2FtVVVlUAAAEAAAABAADVeM5BXw889QADBAD%2F%2F%2F%2F%2F1joTc%2F%2F%2F%2F%2F%2FWOhNzAAD%2FIASAA6sAAAAKAAIAAQAAAAAAAQAAA%2Bj%2FagAAF3AAAP%2B2BIAAAQAAAAAAAAAAAAAAAAAAAAQDUgBVBAAAgAOgAIADVACAAAAAAAAAACgAAACpAAABBwAAAW8AAQAAAAQAXgAFAAAAAAACAIAEAAAAAAAEAADeAAAAAAAAABUBAgAAAAAAAAABABIAAAAAAAAAAAACAA4AEgAAAAAAAAADADAAIAAAAAAAAAAEABIAUAAAAAAAAAAFABYAYgAAAAAAAAAGAAkAeAAAAAAAAAAIABwAgQABAAAAAAABABIAAAABAAAAAAACAA4AEgABAAAAAAADADAAIAABAAAAAAAEABIAUAABAAAAAAAFABYAYgABAAAAAAAGAAkAeAABAAAAAAAIABwAgQADAAEECQABABIAAAADAAEECQACAA4AEgADAAEECQADADAAIAADAAEECQAEABIAUAADAAEECQAFABYAYgADAAEECQAGAAkAeAADAAEECQAIABwAgQBNAGEAdABoACAARgBvAG4AdABSAGUAZwB1AGwAYQByAE0AYQB0AGgAcwAgAEYAbwByACAATQBvAHIAZQAgAE0AYQB0AGgAIABGAG8AbgB0AE0AYQB0AGgAIABGAG8AbgB0AFYAZQByAHMAaQBvAG4AIAAxAC4AME1hdGhfRm9udABNAGEAdABoAHMAIABGAG8AcgAgAE0AbwByAGUAAAMAAAAAAAAB9AD6AAAAAAAAAAAAAAAAAAAAAAAAAAC5BxEAAI2FGACyAAAAFRQTsQABPw%3D%3D)format('truetype')%3Bfont-weight%3Anormal%3Bfont-style%3Anormal%3B%7D%40font-face%7Bfont-family%3A'round_brackets18549f92a457f2409'%3Bsrc%3Aurl(data%3Afont%2Ftruetype%3Bcharset%3Dutf-8%3Bbase64%2CAAEAAAAMAIAAAwBAT1MvMjwHLFQAAADMAAAATmNtYXDf7xCrAAABHAAAADxjdnQgBAkDLgAAAVgAAAASZ2x5ZmAOz2cAAAFsAAABJGhlYWQOKih8AAACkAAAADZoaGVhCvgVwgAAAsgAAAAkaG10eCA6AAIAAALsAAAADGxvY2EAAARLAAAC%2BAAAABBtYXhwBIgEWQAAAwgAAAAgbmFtZXHR30MAAAMoAAACOXBvc3QDogHPAAAFZAAAACBwcmVwupWEAAAABYQAAAAHAAAGcgGQAAUAAAgACAAAAAAACAAIAAAAAAAAAQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAgICAAAAAo8AMGe%2F57AAAHPgGyAAAAAAACAAEAAQAAABQAAwABAAAAFAAEACgAAAAGAAQAAQACACgAKf%2F%2FAAAAKAAp%2F%2F%2F%2F2f%2FZAAEAAAAAAAAAAAFUAFYBAAAsAKgDgAAyAAcAAAACAAAAKgDVA1UAAwAHAAA1MxEjEyMRM9XVq4CAKgMr%2FQAC1QABAAD%2B0AIgBtAACQBNGAGwChCwA9SwAxCwAtSwChCwBdSwBRCwANSwAxCwBzywAhCwCDwAsAoQsAPUsAMQsAfUsAoQsAXUsAoQsADUsAMQsAI8sAcQsAg8MTAREAEzABEQASMAAZCQ%2FnABkJD%2BcALQ%2FZD%2BcAGQAnACcAGQ%2FnAAAQAA%2FtACIAbQAAkATRgBsAoQsAPUsAMQsALUsAoQsAXUsAUQsADUsAMQsAc8sAIQsAg8ALAKELAD1LADELAH1LAKELAF1LAKELAA1LADELACPLAHELAIPDEwARABIwAREAEzAAIg%2FnCQAZD%2BcJABkALQ%2FZD%2BcAGQAnACcAGQ%2FnAAAQAAAAEAAPW2NYFfDzz1AAMIAP%2F%2F%2F%2F%2FVre7u%2F%2F%2F%2F%2F9Wt7u4AAP7QA7cG0AAAAAoAAgABAAAAAAABAAAHPv5OAAAXcAAA%2F%2F4DtwABAAAAAAAAAAAAAAAAAAAAAwDVAAACIAAAAiAAAAAAAAAAAAAkAAAAowAAASQAAQAAAAMACgACAAAAAAACAIAEAAAAAAAEAABNAAAAAAAAABUBAgAAAAAAAAABAD4AAAAAAAAAAAACAA4APgAAAAAAAAADAFwATAAAAAAAAAAEAD4AqAAAAAAAAAAFABYA5gAAAAAAAAAGAB8A%2FAAAAAAAAAAIABwBGwABAAAAAAABAD4AAAABAAAAAAACAA4APgABAAAAAAADAFwATAABAAAAAAAEAD4AqAABAAAAAAAFABYA5gABAAAAAAAGAB8A%2FAABAAAAAAAIABwBGwADAAEECQABAD4AAAADAAEECQACAA4APgADAAEECQADAFwATAADAAEECQAEAD4AqAADAAEECQAFABYA5gADAAEECQAGAB8A%2FAADAAEECQAIABwBGwBSAG8AdQBuAGQAIABiAHIAYQBjAGsAZQB0AHMAIAB3AGkAdABoACAAYQBzAGMAZQBuAHQAIAAxADgANQA0AFIAZQBnAHUAbABhAHIATQBhAHQAaABzACAARgBvAHIAIABNAG8AcgBlACAAUgBvAHUAbgBkACAAYgByAGEAYwBrAGUAdABzACAAdwBpAHQAaAAgAGEAcwBjAGUAbgB0ACAAMQA4ADUANABSAG8AdQBuAGQAIABiAHIAYQBjAGsAZQB0AHMAIAB3AGkAdABoACAAYQBzAGMAZQBuAHQAIAAxADgANQA0AFYAZQByAHMAaQBvAG4AIAAyAC4AMFJvdW5kX2JyYWNrZXRzX3dpdGhfYXNjZW50XzE4NTQATQBhAHQAaABzACAARgBvAHIAIABNAG8AcgBlAAAAAAMAAAAAAAADnwHPAAAAAAAAAAAAAAAAAAAAAAAAAAC5B%2F8AAY2FAA%3D%3D)format('truetype')%3Bfont-weight%3Anormal%3Bfont-style%3Anormal%3B%7D%3C%2Fstyle%3E%3C%2Fdefs%3E%3Ctext%20font-family%3D%22round_brackets18549f92a457f2409%22%20font-size%3D%2218%22%20text-anchor%3D%22middle%22%20x%3D%223.5%22%20y%3D%2216%22%3E(%3C%2Ftext%3E%3Ctext%20font-family%3D%22Times%20New%20Roman%22%20font-size%3D%2218%22%20font-style%3D%22italic%22%20text-anchor%3D%22middle%22%20x%3D%2212.5%22%20y%3D%2216%22%3EA%3C%2Ftext%3E%3Ctext%20font-family%3D%22math1c844261e3c1a2c16d055cb0be5%22%20font-size%3D%2216%22%20text-anchor%3D%22middle%22%20x%3D%2228.5%22%20y%3D%2216%22%3E%26%23x2291%3B%3C%2Ftext%3E%3Ctext%20font-family%3D%22Times%20New%20Roman%22%20font-size%3D%2218%22%20font-style%3D%22italic%22%20text-anchor%3D%22middle%22%20x%3D%2243.5%22%20y%3D%2216%22%3EB%3C%2Ftext%3E%3Ctext%20font-family%3D%22round_brackets18549f92a457f2409%22%20font-size%3D%2218%22%20text-anchor%3D%22middle%22%20x%3D%2252.5%22%20y%3D%2216%22%3E)%3C%2Ftext%3E%3Ctext%20font-family%3D%22math1c844261e3c1a2c16d055cb0be5%22%20font-size%3D%2216%22%20text-anchor%3D%22middle%22%20x%3D%2265.5%22%20y%3D%2216%22%3E%26%23x2227%3B%3C%2Ftext%3E%3Ctext%20font-family%3D%22round_brackets18549f92a457f2409%22%20font-size%3D%2218%22%20text-anchor%3D%22middle%22%20x%3D%2278.5%22%20y%3D%2216%22%3E(%3C%2Ftext%3E%3Ctext%20font-family%3D%22Times%20New%20Roman%22%20font-size%3D%2218%22%20font-style%3D%22italic%22%20text-anchor%3D%22middle%22%20x%3D%2287.5%22%20y%3D%2216%22%3EB%3C%2Ftext%3E%3Ctext%20font-family%3D%22math1c844261e3c1a2c16d055cb0be5%22%20font-size%3D%2216%22%20text-anchor%3D%22middle%22%20x%3D%22102.5%22%20y%3D%2216%22%3E%26%23x2291%3B%3C%2Ftext%3E%3Ctext%20font-family%3D%22Times%20New%20Roman%22%20font-size%3D%2218%22%20font-style%3D%22italic%22%20text-anchor%3D%22middle%22%20x%3D%22117.5%22%20y%3D%2216%22%3EC%3C%2Ftext%3E%3Ctext%20font-family%3D%22round_brackets18549f92a457f2409%22%20font-size%3D%2218%22%20text-anchor%3D%22middle%22%20x%3D%22126.5%22%20y%3D%2216%22%3E)%3C%2Ftext%3E%3Ctext%20font-family%3D%22math1c844261e3c1a2c16d055cb0be5%22%20font-size%3D%2216%22%20text-anchor%3D%22middle%22%20x%3D%22140.5%22%20y%3D%2216%22%3E%26%23x21D2%3B%3C%2Ftext%3E%3Ctext%20font-family%3D%22Times%20New%20Roman%22%20font-size%3D%2218%22%20font-style%3D%22italic%22%20text-anchor%3D%22middle%22%20x%3D%22156.5%22%20y%3D%2216%22%3EA%3C%2Ftext%3E%3Ctext%20font-family%3D%22math1c844261e3c1a2c16d055cb0be5%22%20font-size%3D%2216%22%20text-anchor%3D%22middle%22%20x%3D%22174.5%22%20y%3D%2216%22%3E%26%23x21D2%3B%3C%2Ftext%3E%3Ctext%20font-family%3D%22Times%20New%20Roman%22%20font-size%3D%2218%22%20font-style%3D%22italic%22%20text-anchor%3D%22middle%22%20x%3D%22190.5%22%20y%3D%2216%22%3EC%3C%2Ftext%3E%3C%2Fsvg%3E",
+    "data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Awrs%3D%22http%3A%2F%2Fwww.wiris.com%2Fxml%2Fcvs-extension%22%20height%3D%2222%22%20width%3D%22233%22%20wrs%3Abaseline%3D%2216%22%3E%3C!--MathML%3A%20%3Cmath%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F1998%2FMath%2FMathML%22%3E%3Cmi%3EA%3C%2Fmi%3E%3Cmo%3E%26%23xD7%3B%3C%2Fmo%3E%3Cmo%3E(%3C%2Fmo%3E%3Cmi%3EB%3C%2Fmi%3E%3Cmo%3E%26%23x222A%3B%3C%2Fmo%3E%3Cmi%3EC%3C%2Fmi%3E%3Cmo%3E)%3C%2Fmo%3E%3Cmo%3E%3D%3C%2Fmo%3E%3Cmo%3E(%3C%2Fmo%3E%3Cmi%3EA%3C%2Fmi%3E%3Cmo%3E%26%23xD7%3B%3C%2Fmo%3E%3Cmi%3EB%3C%2Fmi%3E%3Cmo%3E)%3C%2Fmo%3E%3Cmo%3E%26%23x222A%3B%3C%2Fmo%3E%3Cmo%3E(%3C%2Fmo%3E%3Cmi%3EA%3C%2Fmi%3E%3Cmo%3E%26%23xD7%3B%3C%2Fmo%3E%3Cmi%3EC%3C%2Fmi%3E%3Cmo%3E)%3C%2Fmo%3E%3C%2Fmath%3E--%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%40font-face%7Bfont-family%3A'math1776dec9b18c9bf43da46e23b2a'%3Bsrc%3Aurl(data%3Afont%2Ftruetype%3Bcharset%3Dutf-8%3Bbase64%2CAAEAAAAMAIAAAwBAT1MvMi7iBBMAAADMAAAATmNtYXDEvmKUAAABHAAAAERjdnQgDVUNBwAAAWAAAAA6Z2x5ZoPi2VsAAAGcAAABvGhlYWQQC2qxAAADWAAAADZoaGVhCGsXSAAAA5AAAAAkaG10eE2rRkcAAAO0AAAAEGxvY2EAHTwYAAADxAAAABRtYXhwBT0FPgAAA9gAAAAgbmFtZaBxlY4AAAP4AAABn3Bvc3QB9wD6AAAFmAAAACBwcmVwa1uragAABbgAAAAUAAADSwGQAAUAAAQABAAAAAAABAAEAAAAAAAAAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAgICAAAAAg1UADev96AAAD6ACWAAAAAAACAAEAAQAAABQAAwABAAAAFAAEADAAAAAIAAgAAgAAAD0A1yIq%2F%2F8AAAA9ANciKv%2F%2F%2F8T%2FK93ZAAEAAAAAAAAAAAAAAVQDLACAAQAAVgAqAlgCHgEOASwCLABaAYACgACgANQAgAAAAAAAAAArAFUAgACrANUBAAErAAcAAAACAFUAAAMAA6sAAwAHAAAzESERJSERIVUCq%2F2rAgD%2BAAOr%2FFVVAwAAAgCAAOsC1QIVAAMABwBlGAGwCBCwBtSwBhCwBdSwCBCwAdSwARCwANSwBhCwBzywBRCwBDywARCwAjywABCwAzwAsAgQsAbUsAYQsAfUsAcQsAHUsAEQsALUsAYQsAU8sAcQsAQ8sAEQsAA8sAIQsAM8MTATITUhHQEhNYACVf2rAlUBwFXVVVUAAgCAAFUC1QKAAAMABwBGGLABFACxAAATELEACeSxAAETELAEPLEGCPSwAjwwAbEIARMQsQAD9rAHPLEBBfWwBjyyBQcAEPSwAjyxCQPmsQQF9bADPBMzASMRMwEjgFUCAFVV%2FgBVAoD91QIr%2FdUAAQCAAAAC1QMrABAAYRgBsBEQsQAD9rAPPLEBBf2wAzyxBAX8sA48sAAQsAnUsAs8sRID5rEIBf2wBjyxBQX8sAw8ALENAj%2BxDwP9sAs8sBDdsAo8sA0QsQQF%2FbAFPLEDA%2F2wBjyxAQA%2FsAg8MTATMxEUFiA2NREzERQGIyImNYBVVgEAVVWqgICrAyv%2BAFaAgFYCAP4Aq4CAqwABAAAAAQAA1XjOQV8PPPUAAwQA%2F%2F%2F%2F%2F9Y6E3P%2F%2F%2F%2F%2F1joTcwAA%2FyAEgAOrAAAACgACAAEAAAAAAAEAAAPo%2F2oAABdwAAD%2FtgSAAAEAAAAAAAAAAAAAAAAAAAAEA1IAVQNWAIADVgCAA1QAgAAAAAAAAAAoAAAAsgAAASEAAAG8AAEAAAAEAF4ABQAAAAAAAgCABAAAAAAABAAA3gAAAAAAAAAVAQIAAAAAAAAAAQASAAAAAAAAAAAAAgAOABIAAAAAAAAAAwAwACAAAAAAAAAABAASAFAAAAAAAAAABQAWAGIAAAAAAAAABgAJAHgAAAAAAAAACAAcAIEAAQAAAAAAAQASAAAAAQAAAAAAAgAOABIAAQAAAAAAAwAwACAAAQAAAAAABAASAFAAAQAAAAAABQAWAGIAAQAAAAAABgAJAHgAAQAAAAAACAAcAIEAAwABBAkAAQASAAAAAwABBAkAAgAOABIAAwABBAkAAwAwACAAAwABBAkABAASAFAAAwABBAkABQAWAGIAAwABBAkABgAJAHgAAwABBAkACAAcAIEATQBhAHQAaAAgAEYAbwBuAHQAUgBlAGcAdQBsAGEAcgBNAGEAdABoAHMAIABGAG8AcgAgAE0AbwByAGUAIABNAGEAdABoACAARgBvAG4AdABNAGEAdABoACAARgBvAG4AdABWAGUAcgBzAGkAbwBuACAAMQAuADBNYXRoX0ZvbnQATQBhAHQAaABzACAARgBvAHIAIABNAG8AcgBlAAADAAAAAAAAAfQA%2BgAAAAAAAAAAAAAAAAAAAAAAAAAAuQcRAACNhRgAsgAAABUUE7EAAT8%3D)format('truetype')%3Bfont-weight%3Anormal%3Bfont-style%3Anormal%3B%7D%40font-face%7Bfont-family%3A'round_brackets18549f92a457f2409'%3Bsrc%3Aurl(data%3Afont%2Ftruetype%3Bcharset%3Dutf-8%3Bbase64%2CAAEAAAAMAIAAAwBAT1MvMjwHLFQAAADMAAAATmNtYXDf7xCrAAABHAAAADxjdnQgBAkDLgAAAVgAAAASZ2x5ZmAOz2cAAAFsAAABJGhlYWQOKih8AAACkAAAADZoaGVhCvgVwgAAAsgAAAAkaG10eCA6AAIAAALsAAAADGxvY2EAAARLAAAC%2BAAAABBtYXhwBIgEWQAAAwgAAAAgbmFtZXHR30MAAAMoAAACOXBvc3QDogHPAAAFZAAAACBwcmVwupWEAAAABYQAAAAHAAAGcgGQAAUAAAgACAAAAAAACAAIAAAAAAAAAQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAgICAAAAAo8AMGe%2F57AAAHPgGyAAAAAAACAAEAAQAAABQAAwABAAAAFAAEACgAAAAGAAQAAQACACgAKf%2F%2FAAAAKAAp%2F%2F%2F%2F2f%2FZAAEAAAAAAAAAAAFUAFYBAAAsAKgDgAAyAAcAAAACAAAAKgDVA1UAAwAHAAA1MxEjEyMRM9XVq4CAKgMr%2FQAC1QABAAD%2B0AIgBtAACQBNGAGwChCwA9SwAxCwAtSwChCwBdSwBRCwANSwAxCwBzywAhCwCDwAsAoQsAPUsAMQsAfUsAoQsAXUsAoQsADUsAMQsAI8sAcQsAg8MTAREAEzABEQASMAAZCQ%2FnABkJD%2BcALQ%2FZD%2BcAGQAnACcAGQ%2FnAAAQAA%2FtACIAbQAAkATRgBsAoQsAPUsAMQsALUsAoQsAXUsAUQsADUsAMQsAc8sAIQsAg8ALAKELAD1LADELAH1LAKELAF1LAKELAA1LADELACPLAHELAIPDEwARABIwAREAEzAAIg%2FnCQAZD%2BcJABkALQ%2FZD%2BcAGQAnACcAGQ%2FnAAAQAAAAEAAPW2NYFfDzz1AAMIAP%2F%2F%2F%2F%2FVre7u%2F%2F%2F%2F%2F9Wt7u4AAP7QA7cG0AAAAAoAAgABAAAAAAABAAAHPv5OAAAXcAAA%2F%2F4DtwABAAAAAAAAAAAAAAAAAAAAAwDVAAACIAAAAiAAAAAAAAAAAAAkAAAAowAAASQAAQAAAAMACgACAAAAAAACAIAEAAAAAAAEAABNAAAAAAAAABUBAgAAAAAAAAABAD4AAAAAAAAAAAACAA4APgAAAAAAAAADAFwATAAAAAAAAAAEAD4AqAAAAAAAAAAFABYA5gAAAAAAAAAGAB8A%2FAAAAAAAAAAIABwBGwABAAAAAAABAD4AAAABAAAAAAACAA4APgABAAAAAAADAFwATAABAAAAAAAEAD4AqAABAAAAAAAFABYA5gABAAAAAAAGAB8A%2FAABAAAAAAAIABwBGwADAAEECQABAD4AAAADAAEECQACAA4APgADAAEECQADAFwATAADAAEECQAEAD4AqAADAAEECQAFABYA5gADAAEECQAGAB8A%2FAADAAEECQAIABwBGwBSAG8AdQBuAGQAIABiAHIAYQBjAGsAZQB0AHMAIAB3AGkAdABoACAAYQBzAGMAZQBuAHQAIAAxADgANQA0AFIAZQBnAHUAbABhAHIATQBhAHQAaABzACAARgBvAHIAIABNAG8AcgBlACAAUgBvAHUAbgBkACAAYgByAGEAYwBrAGUAdABzACAAdwBpAHQAaAAgAGEAcwBjAGUAbgB0ACAAMQA4ADUANABSAG8AdQBuAGQAIABiAHIAYQBjAGsAZQB0AHMAIAB3AGkAdABoACAAYQBzAGMAZQBuAHQAIAAxADgANQA0AFYAZQByAHMAaQBvAG4AIAAyAC4AMFJvdW5kX2JyYWNrZXRzX3dpdGhfYXNjZW50XzE4NTQATQBhAHQAaABzACAARgBvAHIAIABNAG8AcgBlAAAAAAMAAAAAAAADnwHPAAAAAAAAAAAAAAAAAAAAAAAAAAC5B%2F8AAY2FAA%3D%3D)format('truetype')%3Bfont-weight%3Anormal%3Bfont-style%3Anormal%3B%7D%3C%2Fstyle%3E%3C%2Fdefs%3E%3Ctext%20font-family%3D%22Times%20New%20Roman%22%20font-size%3D%2218%22%20font-style%3D%22italic%22%20text-anchor%3D%22middle%22%20x%3D%226.5%22%20y%3D%2216%22%3EA%3C%2Ftext%3E%3Ctext%20font-family%3D%22math1776dec9b18c9bf43da46e23b2a%22%20font-size%3D%2216%22%20text-anchor%3D%22middle%22%20x%3D%2222.5%22%20y%3D%2216%22%3E%26%23xD7%3B%3C%2Ftext%3E%3Ctext%20font-family%3D%22round_brackets18549f92a457f2409%22%20font-size%3D%2218%22%20text-anchor%3D%22middle%22%20x%3D%2234.5%22%20y%3D%2216%22%3E(%3C%2Ftext%3E%3Ctext%20font-family%3D%22Times%20New%20Roman%22%20font-size%3D%2218%22%20font-style%3D%22italic%22%20text-anchor%3D%22middle%22%20x%3D%2243.5%22%20y%3D%2216%22%3EB%3C%2Ftext%3E%3Ctext%20font-family%3D%22math1776dec9b18c9bf43da46e23b2a%22%20font-size%3D%2216%22%20text-anchor%3D%22middle%22%20x%3D%2258.5%22%20y%3D%2216%22%3E%26%23x222A%3B%3C%2Ftext%3E%3Ctext%20font-family%3D%22Times%20New%20Roman%22%20font-size%3D%2218%22%20font-style%3D%22italic%22%20text-anchor%3D%22middle%22%20x%3D%2273.5%22%20y%3D%2216%22%3EC%3C%2Ftext%3E%3Ctext%20font-family%3D%22round_brackets18549f92a457f2409%22%20font-size%3D%2218%22%20text-anchor%3D%22middle%22%20x%3D%2282.5%22%20y%3D%2216%22%3E)%3C%2Ftext%3E%3Ctext%20font-family%3D%22math1776dec9b18c9bf43da46e23b2a%22%20font-size%3D%2216%22%20text-anchor%3D%22middle%22%20x%3D%2294.5%22%20y%3D%2216%22%3E%3D%3C%2Ftext%3E%3Ctext%20font-family%3D%22round_brackets18549f92a457f2409%22%20font-size%3D%2218%22%20text-anchor%3D%22middle%22%20x%3D%22106.5%22%20y%3D%2216%22%3E(%3C%2Ftext%3E%3Ctext%20font-family%3D%22Times%20New%20Roman%22%20font-size%3D%2218%22%20font-style%3D%22italic%22%20text-anchor%3D%22middle%22%20x%3D%22115.5%22%20y%3D%2216%22%3EA%3C%2Ftext%3E%3Ctext%20font-family%3D%22math1776dec9b18c9bf43da46e23b2a%22%20font-size%3D%2216%22%20text-anchor%3D%22middle%22%20x%3D%22131.5%22%20y%3D%2216%22%3E%26%23xD7%3B%3C%2Ftext%3E%3Ctext%20font-family%3D%22Times%20New%20Roman%22%20font-size%3D%2218%22%20font-style%3D%22italic%22%20text-anchor%3D%22middle%22%20x%3D%22146.5%22%20y%3D%2216%22%3EB%3C%2Ftext%3E%3Ctext%20font-family%3D%22round_brackets18549f92a457f2409%22%20font-size%3D%2218%22%20text-anchor%3D%22middle%22%20x%3D%22155.5%22%20y%3D%2216%22%3E)%3C%2Ftext%3E%3Ctext%20font-family%3D%22math1776dec9b18c9bf43da46e23b2a%22%20font-size%3D%2216%22%20text-anchor%3D%22middle%22%20x%3D%22167.5%22%20y%3D%2216%22%3E%26%23x222A%3B%3C%2Ftext%3E%3Ctext%20font-family%3D%22round_brackets18549f92a457f2409%22%20font-size%3D%2218%22%20text-anchor%3D%22middle%22%20x%3D%22179.5%22%20y%3D%2216%22%3E(%3C%2Ftext%3E%3Ctext%20font-family%3D%22Times%20New%20Roman%22%20font-size%3D%2218%22%20font-style%3D%22italic%22%20text-anchor%3D%22middle%22%20x%3D%22188.5%22%20y%3D%2216%22%3EA%3C%2Ftext%3E%3Ctext%20font-family%3D%22math1776dec9b18c9bf43da46e23b2a%22%20font-size%3D%2216%22%20text-anchor%3D%22middle%22%20x%3D%22204.5%22%20y%3D%2216%22%3E%26%23xD7%3B%3C%2Ftext%3E%3Ctext%20font-family%3D%22Times%20New%20Roman%22%20font-size%3D%2218%22%20font-style%3D%22italic%22%20text-anchor%3D%22middle%22%20x%3D%22219.5%22%20y%3D%2216%22%3EC%3C%2Ftext%3E%3Ctext%20font-family%3D%22round_brackets18549f92a457f2409%22%20font-size%3D%2218%22%20text-anchor%3D%22middle%22%20x%3D%22228.5%22%20y%3D%2216%22%3E)%3C%2Ftext%3E%3C%2Fsvg%3E",
+    "data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Awrs%3D%22http%3A%2F%2Fwww.wiris.com%2Fxml%2Fcvs-extension%22%20height%3D%2222%22%20width%3D%22198%22%20wrs%3Abaseline%3D%2216%22%3E%3C!--MathML%3A%20%3Cmath%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F1998%2FMath%2FMathML%22%3E%3Cmo%3E(%3C%2Fmo%3E%3Cmi%3EA%3C%2Fmi%3E%3Cmo%3E%26%23x2291%3B%3C%2Fmo%3E%3Cmi%3EB%3C%2Fmi%3E%3Cmo%3E)%3C%2Fmo%3E%3Cmo%3E%26%23x2227%3B%3C%2Fmo%3E%3Cmo%3E(%3C%2Fmo%3E%3Cmi%3EB%3C%2Fmi%3E%3Cmo%3E%26%23x2291%3B%3C%2Fmo%3E%3Cmi%3EC%3C%2Fmi%3E%3Cmo%3E)%3C%2Fmo%3E%3Cmo%3E%26%23x21D2%3B%3C%2Fmo%3E%3Cmi%3EA%3C%2Fmi%3E%3Cmo%3E%26%23x21D2%3B%3C%2Fmo%3E%3Cmi%3EC%3C%2Fmi%3E%3C%2Fmath%3E--%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%40font-face%7Bfont-family%3A'math1c844261e3c1a2c16d055cb0be5'%3Bsrc%3Aurl(data%3Afont%2Ftruetype%3Bcharset%3Dutf-8%3Bbase64%2CAAEAAAAMAIAAAwBAT1MvMi7iBBMAAADMAAAATmNtYXDEvmKUAAABHAAAAERjdnQgDVUNBwAAAWAAAAA6Z2x5ZoPi2VsAAAGcAAABb2hlYWQQC2qxAAADDAAAADZoaGVhCGsXSAAAA0QAAAAkaG10eE2rRkcAAANoAAAAEGxvY2EAHTwYAAADeAAAABRtYXhwBT0FPgAAA4wAAAAgbmFtZaBxlY4AAAOsAAABn3Bvc3QB9wD6AAAFTAAAACBwcmVwa1uragAABWwAAAAUAAADSwGQAAUAAAQABAAAAAAABAAEAAAAAAAAAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAgICAAAAAg1UADev96AAAD6ACWAAAAAAACAAEAAQAAABQAAwABAAAAFAAEADAAAAAIAAgAAgAAIdIiJyKR%2F%2F8AACHSIicikf%2F%2F3i%2Fd291yAAEAAAAAAAAAAAAAAVQDLACAAQAAVgAqAlgCHgEOASwCLABaAYACgACgANQAgAAAAAAAAAArAFUAgACrANUBAAErAAcAAAACAFUAAAMAA6sAAwAHAAAzESERJSERIVUCq%2F2rAgD%2BAAOr%2FFVVAwAAAQCAAIADgAKAAAsATBgBsAwQsQED9LAHPLAL1bAJPLEED%2BaxAwP2sAU8sAQQsQ0D5ACxAAATELEJBvSxCQETELEHBfWxBQPmsAkQsQsF9LEBBfWxAwPmMDETFSEHCQEXIRUhFweAAgArASv%2B1Sv%2BAAJVKysBVVWAAQABAIBVKysAAQCAAAADKwJVAAYANhgBsAcQsQAD9LEGBeWxAQrmsQIF9rEDCvaxBAXmsQgD5ACxAAA%2FsgYDBDw8PLEBB%2FawAjwwMTMBMwEjCQGAASpWAStV%2Fv%2F%2FAAJV%2FasCCv32AAIAgAAAAtUCgAAHAAsANxgBsAwQsQsD9LAHPLEDBeWwCdWxBQE8PLENA%2BQAsQsAP7EJBf2xBwX8sQUF9bEDCvaxAQX1MDETIRUhESEVIRUhFSGAAlX%2BAAIA%2FasCVf2rAoBV%2FtVVVlUAAAEAAAABAADVeM5BXw889QADBAD%2F%2F%2F%2F%2F1joTc%2F%2F%2F%2F%2F%2FWOhNzAAD%2FIASAA6sAAAAKAAIAAQAAAAAAAQAAA%2Bj%2FagAAF3AAAP%2B2BIAAAQAAAAAAAAAAAAAAAAAAAAQDUgBVBAAAgAOgAIADVACAAAAAAAAAACgAAACpAAABBwAAAW8AAQAAAAQAXgAFAAAAAAACAIAEAAAAAAAEAADeAAAAAAAAABUBAgAAAAAAAAABABIAAAAAAAAAAAACAA4AEgAAAAAAAAADADAAIAAAAAAAAAAEABIAUAAAAAAAAAAFABYAYgAAAAAAAAAGAAkAeAAAAAAAAAAIABwAgQABAAAAAAABABIAAAABAAAAAAACAA4AEgABAAAAAAADADAAIAABAAAAAAAEABIAUAABAAAAAAAFABYAYgABAAAAAAAGAAkAeAABAAAAAAAIABwAgQADAAEECQABABIAAAADAAEECQACAA4AEgADAAEECQADADAAIAADAAEECQAEABIAUAADAAEECQAFABYAYgADAAEECQAGAAkAeAADAAEECQAIABwAgQBNAGEAdABoACAARgBvAG4AdABSAGUAZwB1AGwAYQByAE0AYQB0AGgAcwAgAEYAbwByACAATQBvAHIAZQAgAE0AYQB0AGgAIABGAG8AbgB0AE0AYQB0AGgAIABGAG8AbgB0AFYAZQByAHMAaQBvAG4AIAAxAC4AME1hdGhfRm9udABNAGEAdABoAHMAIABGAG8AcgAgAE0AbwByAGUAAAMAAAAAAAAB9AD6AAAAAAAAAAAAAAAAAAAAAAAAAAC5BxEAAI2FGACyAAAAFRQTsQABPw%3D%3D)format('truetype')%3Bfont-weight%3Anormal%3Bfont-style%3Anormal%3B%7D%40font-face%7Bfont-family%3A'round_brackets18549f92a457f2409'%3Bsrc%3Aurl(data%3Afont%2Ftruetype%3Bcharset%3Dutf-8%3Bbase64%2CAAEAAAAMAIAAAwBAT1MvMjwHLFQAAADMAAAATmNtYXDf7xCrAAABHAAAADxjdnQgBAkDLgAAAVgAAAASZ2x5ZmAOz2cAAAFsAAABJGhlYWQOKih8AAACkAAAADZoaGVhCvgVwgAAAsgAAAAkaG10eCA6AAIAAALsAAAADGxvY2EAAARLAAAC%2BAAAABBtYXhwBIgEWQAAAwgAAAAgbmFtZXHR30MAAAMoAAACOXBvc3QDogHPAAAFZAAAACBwcmVwupWEAAAABYQAAAAHAAAGcgGQAAUAAAgACAAAAAAACAAIAAAAAAAAAQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAgICAAAAAo8AMGe%2F57AAAHPgGyAAAAAAACAAEAAQAAABQAAwABAAAAFAAEACgAAAAGAAQAAQACACgAKf%2F%2FAAAAKAAp%2F%2F%2F%2F2f%2FZAAEAAAAAAAAAAAFUAFYBAAAsAKgDgAAyAAcAAAACAAAAKgDVA1UAAwAHAAA1MxEjEyMRM9XVq4CAKgMr%2FQAC1QABAAD%2B0AIgBtAACQBNGAGwChCwA9SwAxCwAtSwChCwBdSwBRCwANSwAxCwBzywAhCwCDwAsAoQsAPUsAMQsAfUsAoQsAXUsAoQsADUsAMQsAI8sAcQsAg8MTAREAEzABEQASMAAZCQ%2FnABkJD%2BcALQ%2FZD%2BcAGQAnACcAGQ%2FnAAAQAA%2FtACIAbQAAkATRgBsAoQsAPUsAMQsALUsAoQsAXUsAUQsADUsAMQsAc8sAIQsAg8ALAKELAD1LADELAH1LAKELAF1LAKELAA1LADELACPLAHELAIPDEwARABIwAREAEzAAIg%2FnCQAZD%2BcJABkALQ%2FZD%2BcAGQAnACcAGQ%2FnAAAQAAAAEAAPW2NYFfDzz1AAMIAP%2F%2F%2F%2F%2FVre7u%2F%2F%2F%2F%2F9Wt7u4AAP7QA7cG0AAAAAoAAgABAAAAAAABAAAHPv5OAAAXcAAA%2F%2F4DtwABAAAAAAAAAAAAAAAAAAAAAwDVAAACIAAAAiAAAAAAAAAAAAAkAAAAowAAASQAAQAAAAMACgACAAAAAAACAIAEAAAAAAAEAABNAAAAAAAAABUBAgAAAAAAAAABAD4AAAAAAAAAAAACAA4APgAAAAAAAAADAFwATAAAAAAAAAAEAD4AqAAAAAAAAAAFABYA5gAAAAAAAAAGAB8A%2FAAAAAAAAAAIABwBGwABAAAAAAABAD4AAAABAAAAAAACAA4APgABAAAAAAADAFwATAABAAAAAAAEAD4AqAABAAAAAAAFABYA5gABAAAAAAAGAB8A%2FAABAAAAAAAIABwBGwADAAEECQABAD4AAAADAAEECQACAA4APgADAAEECQADAFwATAADAAEECQAEAD4AqAADAAEECQAFABYA5gADAAEECQAGAB8A%2FAADAAEECQAIABwBGwBSAG8AdQBuAGQAIABiAHIAYQBjAGsAZQB0AHMAIAB3AGkAdABoACAAYQBzAGMAZQBuAHQAIAAxADgANQA0AFIAZQBnAHUAbABhAHIATQBhAHQAaABzACAARgBvAHIAIABNAG8AcgBlACAAUgBvAHUAbgBkACAAYgByAGEAYwBrAGUAdABzACAAdwBpAHQAaAAgAGEAcwBjAGUAbgB0ACAAMQA4ADUANABSAG8AdQBuAGQAIABiAHIAYQBjAGsAZQB0AHMAIAB3AGkAdABoACAAYQBzAGMAZQBuAHQAIAAxADgANQA0AFYAZQByAHMAaQBvAG4AIAAyAC4AMFJvdW5kX2JyYWNrZXRzX3dpdGhfYXNjZW50XzE4NTQATQBhAHQAaABzACAARgBvAHIAIABNAG8AcgBlAAAAAAMAAAAAAAADnwHPAAAAAAAAAAAAAAAAAAAAAAAAAAC5B%2F8AAY2FAA%3D%3D)format('truetype')%3Bfont-weight%3Anormal%3Bfont-style%3Anormal%3B%7D%3C%2Fstyle%3E%3C%2Fdefs%3E%3Ctext%20font-family%3D%22round_brackets18549f92a457f2409%22%20font-size%3D%2218%22%20text-anchor%3D%22middle%22%20x%3D%223.5%22%20y%3D%2216%22%3E(%3C%2Ftext%3E%3Ctext%20font-family%3D%22Times%20New%20Roman%22%20font-size%3D%2218%22%20font-style%3D%22italic%22%20text-anchor%3D%22middle%22%20x%3D%2212.5%22%20y%3D%2216%22%3EA%3C%2Ftext%3E%3Ctext%20font-family%3D%22math1c844261e3c1a2c16d055cb0be5%22%20font-size%3D%2216%22%20text-anchor%3D%22middle%22%20x%3D%2228.5%22%20y%3D%2216%22%3E%26%23x2291%3B%3C%2Ftext%3E%3Ctext%20font-family%3D%22Times%20New%20Roman%22%20font-size%3D%2218%22%20font-style%3D%22italic%22%20text-anchor%3D%22middle%22%20x%3D%2243.5%22%20y%3D%2216%22%3EB%3C%2Ftext%3E%3Ctext%20font-family%3D%22round_brackets18549f92a457f2409%22%20font-size%3D%2218%22%20text-anchor%3D%22middle%22%20x%3D%2252.5%22%20y%3D%2216%22%3E)%3C%2Ftext%3E%3Ctext%20font-family%3D%22math1c844261e3c1a2c16d055cb0be5%22%20font-size%3D%2216%22%20text-anchor%3D%22middle%22%20x%3D%2265.5%22%20y%3D%2216%22%3E%26%23x2227%3B%3C%2Ftext%3E%3Ctext%20font-family%3D%22round_brackets18549f92a457f2409%22%20font-size%3D%2218%22%20text-anchor%3D%22middle%22%20x%3D%2278.5%22%20y%3D%2216%22%3E(%3C%2Ftext%3E%3Ctext%20font-family%3D%22Times%20New%20Roman%22%20font-size%3D%2218%22%20font-style%3D%22italic%22%20text-anchor%3D%22middle%22%20x%3D%2287.5%22%20y%3D%2216%22%3EB%3C%2Ftext%3E%3Ctext%20font-family%3D%22math1c844261e3c1a2c16d055cb0be5%22%20font-size%3D%2216%22%20text-anchor%3D%22middle%22%20x%3D%22102.5%22%20y%3D%2216%22%3E%26%23x2291%3B%3C%2Ftext%3E%3Ctext%20font-family%3D%22Times%20New%20Roman%22%20font-size%3D%2218%22%20font-style%3D%22italic%22%20text-anchor%3D%22middle%22%20x%3D%22117.5%22%20y%3D%2216%22%3EC%3C%2Ftext%3E%3Ctext%20font-family%3D%22round_brackets18549f92a457f2409%22%20font-size%3D%2218%22%20text-anchor%3D%22middle%22%20x%3D%22126.5%22%20y%3D%2216%22%3E)%3C%2Ftext%3E%3Ctext%20font-family%3D%22math1c844261e3c1a2c16d055cb0be5%22%20font-size%3D%2216%22%20text-anchor%3D%22middle%22%20x%3D%22140.5%22%20y%3D%2216%22%3E%26%23x21D2%3B%3C%2Ftext%3E%3Ctext%20font-family%3D%22Times%20New%20Roman%22%20font-size%3D%2218%22%20font-style%3D%22italic%22%20text-anchor%3D%22middle%22%20x%3D%22156.5%22%20y%3D%2216%22%3EA%3C%2Ftext%3E%3Ctext%20font-family%3D%22math1c844261e3c1a2c16d055cb0be5%22%20font-size%3D%2216%22%20text-anchor%3D%22middle%22%20x%3D%22174.5%22%20y%3D%2216%22%3E%26%23x21D2%3B%3C%2Ftext%3E%3Ctext%20font-family%3D%22Times%20New%20Roman%22%20font-size%3D%2218%22%20font-style%3D%22italic%22%20text-anchor%3D%22middle%22%20x%3D%22190.5%22%20y%3D%2216%22%3EC%3C%2Ftext%3E%3C%2Fsvg%3E"
+  ],
+  "设A、B、C为任意集合， ( A∈B ) ∧ ( B∈C) →A∈C": [
+    "错"
+  ],
+  "{a,b}⊆{a,b,{a,b}}": [
+    "对"
+  ],
+  "指出图中各关系是函数为（ ）": [
+    "https://public-cdn-oss.mosoteach.cn/mssvc/editor/2020/05/594efa15bf76894fd02455994cfd36f9.png"
+  ],
+  "设f为从集合X到集合Y的映射，f:X->Y，其中X={1,2,3},Y={4,5,6}, f(1)=4, f(2)=5,f(3)=6,则f是双射。": [
+    "对"
+  ],
+  "设f为从集合X到集合Y的映射，f:X->Y，其中X={1,2,3},Y={4,5,6,7}, f(1)=4, f(2)=5,f(3)=6,则f是单射。": [
+    "对"
+  ],
+  "设集合X={1,2,3}， 集合Y={4,5,6}, 的子集f={（1,4）， （1,5）， （3,6）}是一个从X到Y的映射。": [
+    "错"
+  ],
+  "设X和Y为两个有穷集合，|X|=|Y|当且仅当存在从X到Y的双射。": [
+    "对"
+  ],
+  "设f为从集合X到集合Y的映射，f:X->Y，其中X={1,2,3},Y={4,5}, f(1)=4, f(2)=4,f(3)=4,则f是满射。": [
+    "错"
+  ],
+  "设f为从集合X到集合Y的映射，f:X->Y，其中X={1,2,3},Y={4,5}, f(1)=4, f(2)=4,f(3)=5,则f是满射。": [
+    "对"
+  ],
+  "设Z是整数集 E = {…,-4,-2,0,2,4…}， f: Z ->E， f(x)=2x ，则f(    )。": [
+    "是双射"
+  ],
+  "设 A={<2,2>,<3,5>，<3,4>}，\n B= {<1,3>,<2,5>,<3,4>} ,那么dom (A∩B)和ran(A∪B)分别为下面哪一项？(    )": [
+    "{3},{2,3,4,5}"
+  ],
+  "从集合X={1,2,3}到集合Y={4,5}的映射有多少个？": [
+    "8"
+  ],
+  "从集合X={1,2,3}到集合Y={4,5}的满射有多少个？": [
+    "6"
+  ],
+  "从集合X={1,2,3}到集合Y={4,5,6}的双射有多少个？": [
+    "6"
+  ],
+  "card(A)=n, card(B)=m, 则从A到B的函数个数为（ ）": [
+    "m的n次方"
+  ],
+  "A={1,2,3,4}，B={5,6,7,8}，函数f={<1,8>,<3,6>,<4,5>,<2,6>}是（ ）": [
+    "既不是单射也不是满射"
+  ],
+  "A，B为正整数集，函数\nf(x)= { 1    x=0\n      { x-1  x>1  \n是（）": [
+    "满射"
+  ],
+  "设函数  f: R × R →R × R  定义为：\nf(<x,y>)=<x+y,x-y)，则下面说法正确的是（ ）": [
+    "f既是单射又是满射"
+  ],
+  "设是A={a,b} B={1,2} R1,R2,R3 是A到B的二元关系，且\nR1={<a,2>,<b,2>}, R2={<a,1>,<a,2>,<b,1>},R3={<a,1>,<b,2>},  则（ ）不是从A到B的函数．": [
+    "R2"
+  ],
+  "集合A的元素个数为n，集合B的元素个数为m，集合A到集合B的不同的满射等于n个元素的集合A的含有m个单元的划分的数目。": [
+    "对"
+  ],
+  "集合A的元素个数为n，集合B的元素个数为m，集合A到集合B的不同的双射有mn种。": [
+    "错"
+  ],
+  "以下哪个关系能构成函数？": [
+    "f={<x, y>| x,y∈N, 且 y是小于x的素数的个数}"
+  ],
+  "设A和B为有限集合，|A|=n，|B|=m，且n,m>0，则|BA|=（）": [
+    "mn"
+  ],
+  "Φ为从代数系(Z,+)到代数系（Z,*)的同构，这里Z为整数集，+为整数的加法运算，Φ(n)=n+1,则3*4=()。": [
+    "6"
+  ],
+  "设G为非0实数集R*关于普通乘法构成的代数系统，下述函数哪个是G的自同态？（   ）": [
+    "|x|"
+  ],
+  "设A={2，5，8}，A上的二元运算*定义为：a*b=max{a,b}，则<A,*>中的单位元是（   ）。": [
+    "2"
+  ],
+  "设A={2，5，8}，A上的二元运算*定义为：a*b=min{a,b}，则<A,*>中，单位元是(    )。": [
+    "8"
+  ],
+  "设V=<Z,+>，下列函数中(    )是V上的自同态？": [
+    "f(x)=5x"
+  ],
+  "设G1=<{0,1,2},∘>，G2=<{0.1},*>，其中∘表示模3加法，*表示模2乘法，则积代数G1×G2的单位元是（    ）。": [
+    "<0,1>"
+  ],
+  "下面各集合都是N的子集，（     ）集合在普通加法运算下是封闭的。": [
+    "{x|x的幂可以被16整除}",
+    "{x | x是30的倍数}"
+  ],
+  "以下（    ）是N上的二元运算。": [
+    "乘法",
+    "加法"
+  ],
+  "以下（    ）不是整数集合Z上的二元运算。": [
+    "除法"
+  ],
+  "在自然数集N上，下列哪种运算是可结合的？（     ）": [
+    "a*b=max{a,b}"
+  ],
+  "设I为整数集合。选出下列是I上的二元运算的二元关系": [
+    "min={{(x,y),z|x,y,z ∈I and z=min(x,y)}",
+    "GCD={{(x,y),z|x,y,z ∈I and z=GCD(x,y)}",
+    "*={{(x,y),z|x,y,z ∈I and z=x*y}"
+  ],
+  "设R为实数集，定义R上4个二元运算，不满足结合律的是（    ）。": [
+    "f2(x,y)=x-y"
+  ],
+  "设Z+={x|x∈Z并且 x>0},这里“”表示求两个数的最小公倍数，则该运算的幺元是（  ）": [
+    "1"
+  ],
+  "对自然数集合N，哪种运算不是可结合的，运算定义为a,b ∈N （         ）。": [
+    "a*b=a+2b"
+  ],
+  "下面集合（         ）关于减法运算是封闭的。": [
+    "{2x  x∈N}"
+  ],
+  "设 ，G={2m * 3n m,n∈I} *为普通乘法。则代数系统<G,*> 的幺元为（        ）。": [
+    "e=2-1 * 3-1"
+  ],
+  "在自然数集N上，下列（        ）运算是可结合的。（对任意 ）a,b ∈N": [
+    "a*b=max(a,b)"
+  ],
+  "Q为有理数集N，Q上定义运算*为a*b = a + b – ab ,则<Q，*>的幺元为（       ）。": [
+    "0"
+  ],
+  "下面各集合都是N的子集，（                    ）集合在普通加法运算下是封闭的。": [
+    "{x | x 的幂可以被16整除}",
+    "{x | x是30的倍数}"
+  ],
+  "设+为整数集Z上的加法运算，则集合H={2n，n∈Z}在+运算下封闭。": [
+    "假"
+  ],
+  "设S为集合，*为定义在S上的一个二元运算，如果代数系（S，*）存在单位元，则代数系（S，*）只能存在一个唯一的单位元。": [
+    "真"
+  ],
+  "设，+表示整数的加法运算，则（Z, +）与(2Z，+）同构。": [
+    "真"
+  ],
+  "设e为代数系（S，*）的单位元，Φ为从代数系（S,*)到代数系（S',*')的同构，则为代数系(S',*')的单位元。": [
+    "真"
+  ],
+  "设Z为整数集，Q为有理数集，+为通常的加法运算，则代数系（Z，+）与代数系（Q，+）同构。": [
+    "真"
+  ],
+  "设R为实数集，C为复数集，*为通常的乘法运算，则代数系（R，*）与代数系（C，*）同构。": [
+    "真"
+  ],
+  "在运算表中，如果一个元素所在的行和列的元素排列顺序都与表头元素排列顺序一致，那么这个元素就是单位元。": [
+    "真"
+  ],
+  "图G的邻接矩阵为，则图G为哈密顿图。": [
+    "否"
+  ],
+  "下面那一个图可一笔画出（               ）。": [
+    "https://public-cdn-oss.mosoteach.cn/mssvc/editor/2020/05/4942365c86691f38f258b8ebd12e0b59.png"
+  ],
+  "有割边的连通图一定不是欧拉图。": [
+    "真"
+  ],
+  "有割点的连通图一定不是哈密顿图。": [
+    "真"
+  ],
+  "连通非平凡的无向图G有一条欧拉回路当且仅当图G (               )。": [
+    "没有奇度结点"
+  ],
+  "设A,B,C为任意集合，则(A×B)×C = A×(B×C)": [
+    "错"
+  ],
+  "对于任意集合的A，B，等式成立\nP(A-B)=P(A)-P(B)": [
+    "错"
+  ],
+  "设A，B为任意两个集合，则A∪B=|A|+|B|。": [
+    "错"
+  ],
+  "设A，B， C是任意三个集合,\nA∪(B⊕C)= (A∪B)⊕(A∪C)": [
+    "错"
+  ],
+  "设 S={1,2,3}，x∈P(S)，⊕为对称差运算，则\n{1,2}⊕x = {1,3}   的解为( )": [
+    "{2,3}"
+  ],
+  "设集合A，B，其中A={1,2,3},B={1,2},则 A-B=(     )，P(A)-P(B)=(    )": [
+    "{3}; \n{{3},{1,3},{2,3},{1,2,3}}"
+  ],
+  "判断下列命题哪个为真？": [
+    "A-B=B-A => A=B"
+  ],
+  "以下选项正确的有": [
+    "如果A∈{{b}}，则b∈A",
+    "存在集合A,B使得A∈B，A⊆B同时成立",
+    "(A∪C)-(B∪C) ⊆A-B"
+  ],
+  "设 f:X→Y，A⊆B⊆X ,则下面说法正确的是（ ）": [
+    "f(A)⊆f(B)"
+  ],
+  "已知A，B为任意两个集合，则下列关系成立的是（      ）。": [
+    "A-B=A∩~B"
+  ],
+  "小于等于1000的正整数中既不能被3整除又不能被5整除的正整数有多少个？": [
+    "533"
+  ],
+  "已知一个班里有50名学生，在第一次考试中有26人得A，在第二次考试中有21人得A，如果两次考试中都没有得到A的学生是17人，则有（）名学生在两次考试中都得到A。": [
+    "14"
+  ],
+  "令A,B,C 为集合，则以下陈述中有(   )者等价于A=B": [
+    "data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Awrs%3D%22http%3A%2F%2Fwww.wiris.com%2Fxml%2Fcvs-extension%22%20height%3D%2222%22%20width%3D%22105%22%20wrs%3Abaseline%3D%2216%22%3E%3C!--MathML%3A%20%3Cmath%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F1998%2FMath%2FMathML%22%3E%3Cmi%3EA%3C%2Fmi%3E%3Cmo%3E%26%23x2229%3B%3C%2Fmo%3E%3Cmi%3EC%3C%2Fmi%3E%3Cmo%3E%3D%3C%2Fmo%3E%3Cmi%3EB%3C%2Fmi%3E%3Cmo%3E%26%23x2229%3B%3C%2Fmo%3E%3Cmi%3EC%3C%2Fmi%3E%3C%2Fmath%3E--%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%40font-face%7Bfont-family%3A'math12592763b70ee41df6d0bac57e8'%3Bsrc%3Aurl(data%3Afont%2Ftruetype%3Bcharset%3Dutf-8%3Bbase64%2CAAEAAAAMAIAAAwBAT1MvMi7iBBMAAADMAAAATmNtYXDEvmKUAAABHAAAADxjdnQgDVUNBwAAAVgAAAA6Z2x5ZoPi2VsAAAGUAAABS2hlYWQQC2qxAAAC4AAAADZoaGVhCGsXSAAAAxgAAAAkaG10eE2rRkcAAAM8AAAADGxvY2EAHTwYAAADSAAAABBtYXhwBT0FPgAAA1gAAAAgbmFtZaBxlY4AAAN4AAABn3Bvc3QB9wD6AAAFGAAAACBwcmVwa1uragAABTgAAAAUAAADSwGQAAUAAAQABAAAAAAABAAEAAAAAAAAAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAgICAAAAAg1UADev96AAAD6ACWAAAAAAACAAEAAQAAABQAAwABAAAAFAAEACgAAAAGAAQAAQACAD0iKf%2F%2FAAAAPSIp%2F%2F%2F%2FxN3ZAAEAAAAAAAAAAAFUAywAgAEAAFYAKgJYAh4BDgEsAiwAWgGAAoAAoADUAIAAAAAAAAAAKwBVAIAAqwDVAQABKwAHAAAAAgBVAAADAAOrAAMABwAAMxEhESUhESFVAqv9qwIA%2FgADq%2FxVVQMAAAIAgADrAtUCFQADAAcAZRgBsAgQsAbUsAYQsAXUsAgQsAHUsAEQsADUsAYQsAc8sAUQsAQ8sAEQsAI8sAAQsAM8ALAIELAG1LAGELAH1LAHELAB1LABELAC1LAGELAFPLAHELAEPLABELAAPLACELADPDEwEyE1IR0BITWAAlX9qwJVAcBV1VVVAAEAgAAAAtUDKwAQAGEYAbARELEAA%2FawDzyxAQX9sAM8sQQF%2FLAOPLAAELAJ1LALPLESA%2BaxCAX9sAY8sQUF%2FLAMPACxDQI%2FsQ8D%2FbALPLAQ3bAKPLANELEEBf2wBTyxAwP9sAY8sQEAP7AIPDEwOwERNDYgFhURMxE0JiMiBhWAVVYBAFVVqoCAqwIAVYCAVf4AAgCrgICrAAABAAAAAQAA1XjOQV8PPPUAAwQA%2F%2F%2F%2F%2F9Y6E3P%2F%2F%2F%2F%2F1joTcwAA%2FyAEgAOrAAAACgACAAEAAAAAAAEAAAPo%2F2oAABdwAAD%2FtgSAAAEAAAAAAAAAAAAAAAAAAAADA1IAVQNWAIADVACAAAAAAAAAACgAAACyAAABSwABAAAAAwBeAAUAAAAAAAIAgAQAAAAAAAQAAN4AAAAAAAAAFQECAAAAAAAAAAEAEgAAAAAAAAAAAAIADgASAAAAAAAAAAMAMAAgAAAAAAAAAAQAEgBQAAAAAAAAAAUAFgBiAAAAAAAAAAYACQB4AAAAAAAAAAgAHACBAAEAAAAAAAEAEgAAAAEAAAAAAAIADgASAAEAAAAAAAMAMAAgAAEAAAAAAAQAEgBQAAEAAAAAAAUAFgBiAAEAAAAAAAYACQB4AAEAAAAAAAgAHACBAAMAAQQJAAEAEgAAAAMAAQQJAAIADgASAAMAAQQJAAMAMAAgAAMAAQQJAAQAEgBQAAMAAQQJAAUAFgBiAAMAAQQJAAYACQB4AAMAAQQJAAgAHACBAE0AYQB0AGgAIABGAG8AbgB0AFIAZQBnAHUAbABhAHIATQBhAHQAaABzACAARgBvAHIAIABNAG8AcgBlACAATQBhAHQAaAAgAEYAbwBuAHQATQBhAHQAaAAgAEYAbwBuAHQAVgBlAHIAcwBpAG8AbgAgADEALgAwTWF0aF9Gb250AE0AYQB0AGgAcwAgAEYAbwByACAATQBvAHIAZQAAAwAAAAAAAAH0APoAAAAAAAAAAAAAAAAAAAAAAAAAALkHEQAAjYUYALIAAAAVFBOxAAE%2F)format('truetype')%3Bfont-weight%3Anormal%3Bfont-style%3Anormal%3B%7D%3C%2Fstyle%3E%3C%2Fdefs%3E%3Ctext%20font-family%3D%22Times%20New%20Roman%22%20font-size%3D%2218%22%20font-style%3D%22italic%22%20text-anchor%3D%22middle%22%20x%3D%226.5%22%20y%3D%2216%22%3EA%3C%2Ftext%3E%3Ctext%20font-family%3D%22math12592763b70ee41df6d0bac57e8%22%20font-size%3D%2216%22%20text-anchor%3D%22middle%22%20x%3D%2222.5%22%20y%3D%2216%22%3E%26%23x2229%3B%3C%2Ftext%3E%3Ctext%20font-family%3D%22Times%20New%20Roman%22%20font-size%3D%2218%22%20font-style%3D%22italic%22%20text-anchor%3D%22middle%22%20x%3D%2237.5%22%20y%3D%2216%22%3EC%3C%2Ftext%3E%3Ctext%20font-family%3D%22math12592763b70ee41df6d0bac57e8%22%20font-size%3D%2216%22%20text-anchor%3D%22middle%22%20x%3D%2252.5%22%20y%3D%2216%22%3E%3D%3C%2Ftext%3E%3Ctext%20font-family%3D%22Times%20New%20Roman%22%20font-size%3D%2218%22%20font-style%3D%22italic%22%20text-anchor%3D%22middle%22%20x%3D%2267.5%22%20y%3D%2216%22%3EB%3C%2Ftext%3E%3Ctext%20font-family%3D%22math12592763b70ee41df6d0bac57e8%22%20font-size%3D%2216%22%20text-anchor%3D%22middle%22%20x%3D%2282.5%22%20y%3D%2216%22%3E%26%23x2229%3B%3C%2Ftext%3E%3Ctext%20font-family%3D%22Times%20New%20Roman%22%20font-size%3D%2218%22%20font-style%3D%22italic%22%20text-anchor%3D%22middle%22%20x%3D%2297.5%22%20y%3D%2216%22%3EC%3C%2Ftext%3E%3C%2Fsvg%3E"
+  ],
+  "设A, B, C为集合且有，则以下陈述中不正确的是(   )": [
+    "data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Awrs%3D%22http%3A%2F%2Fwww.wiris.com%2Fxml%2Fcvs-extension%22%20height%3D%2222%22%20width%3D%22111%22%20wrs%3Abaseline%3D%2216%22%3E%3C!--MathML%3A%20%3Cmath%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F1998%2FMath%2FMathML%22%3E%3Cmi%3EA%3C%2Fmi%3E%3Cmo%3E%26%23x2295%3B%3C%2Fmo%3E%3Cmi%3EC%3C%2Fmi%3E%3Cmo%3E%26%23x2291%3B%3C%2Fmo%3E%3Cmi%3EB%3C%2Fmi%3E%3Cmo%3E%26%23x2295%3B%3C%2Fmo%3E%3Cmi%3EC%3C%2Fmi%3E%3C%2Fmath%3E--%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%40font-face%7Bfont-family%3A'math1786dce69972724680aedcdae82'%3Bsrc%3Aurl(data%3Afont%2Ftruetype%3Bcharset%3Dutf-8%3Bbase64%2CAAEAAAAMAIAAAwBAT1MvMi7iBBMAAADMAAAATmNtYXDEvmKUAAABHAAAADxjdnQgDVUNBwAAAVgAAAA6Z2x5ZoPi2VsAAAGUAAABg2hlYWQQC2qxAAADGAAAADZoaGVhCGsXSAAAA1AAAAAkaG10eE2rRkcAAAN0AAAADGxvY2EAHTwYAAADgAAAABBtYXhwBT0FPgAAA5AAAAAgbmFtZaBxlY4AAAOwAAABn3Bvc3QB9wD6AAAFUAAAACBwcmVwa1uragAABXAAAAAUAAADSwGQAAUAAAQABAAAAAAABAAEAAAAAAAAAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAgICAAAAAg1UADev96AAAD6ACWAAAAAAACAAEAAQAAABQAAwABAAAAFAAEACgAAAAGAAQAAQACIpEilf%2F%2FAAAikSKV%2F%2F%2FdcN1tAAEAAAAAAAAAAAFUAywAgAEAAFYAKgJYAh4BDgEsAiwAWgGAAoAAoADUAIAAAAAAAAAAKwBVAIAAqwDVAQABKwAHAAAAAgBVAAADAAOrAAMABwAAMxEhESUhESFVAqv9qwIA%2FgADq%2FxVVQMAAAIAgAAAAtUCgAAHAAsANxgBsAwQsQsD9LAHPLEDBeWwCdWxBQE8PLENA%2BQAsQsAP7EJBf2xBwX8sQUF9bEDCvaxAQX1MDETIRUhESEVIRUhFSGAAlX%2BAAIA%2FasCVf2rAoBV%2FtVVVlUABACAAAADgAMAAAsAGwAfACMAgxgBsCQQsArUsAoQsBXUsBUQsBLUsBIQsBHUsBEQsA7UsA4QsATUsAQQsCXUsBIQsB08sBEQsB48sBUQsCDUsA4QsCHUALAkELAH1LAHELAZ1LAZELAW1LAWELAV1LAVELAS1LASELAB1LAVELAgPLAWELAjPLASELAd1LAZELAc1DAxADMyFhUUBiMiJjU0AD0BNCYrASIGHQEUFjsBMgcRMxEBIRUhAVWrq9XVq6vVAquWalZqlpZqVmrAVv6AAqr9VgMA1quq1dWqrP7AalZqlpZqVmqWKgKq%2FVYBgFYAAAEAAAABAADVeM5BXw889QADBAD%2F%2F%2F%2F%2F1joTc%2F%2F%2F%2F%2F%2FWOhNzAAD%2FIASAA6sAAAAKAAIAAQAAAAAAAQAAA%2Bj%2FagAAF3AAAP%2B2BIAAAQAAAAAAAAAAAAAAAAAAAAMDUgBVA1QAgAQAAIAAAAAAAAAAKAAAAJAAAAGDAAEAAAADAF4ABQAAAAAAAgCABAAAAAAABAAA3gAAAAAAAAAVAQIAAAAAAAAAAQASAAAAAAAAAAAAAgAOABIAAAAAAAAAAwAwACAAAAAAAAAABAASAFAAAAAAAAAABQAWAGIAAAAAAAAABgAJAHgAAAAAAAAACAAcAIEAAQAAAAAAAQASAAAAAQAAAAAAAgAOABIAAQAAAAAAAwAwACAAAQAAAAAABAASAFAAAQAAAAAABQAWAGIAAQAAAAAABgAJAHgAAQAAAAAACAAcAIEAAwABBAkAAQASAAAAAwABBAkAAgAOABIAAwABBAkAAwAwACAAAwABBAkABAASAFAAAwABBAkABQAWAGIAAwABBAkABgAJAHgAAwABBAkACAAcAIEATQBhAHQAaAAgAEYAbwBuAHQAUgBlAGcAdQBsAGEAcgBNAGEAdABoAHMAIABGAG8AcgAgAE0AbwByAGUAIABNAGEAdABoACAARgBvAG4AdABNAGEAdABoACAARgBvAG4AdABWAGUAcgBzAGkAbwBuACAAMQAuADBNYXRoX0ZvbnQATQBhAHQAaABzACAARgBvAHIAIABNAG8AcgBlAAADAAAAAAAAAfQA%2BgAAAAAAAAAAAAAAAAAAAAAAAAAAuQcRAACNhRgAsgAAABUUE7EAAT8%3D)format('truetype')%3Bfont-weight%3Anormal%3Bfont-style%3Anormal%3B%7D%3C%2Fstyle%3E%3C%2Fdefs%3E%3Ctext%20font-family%3D%22Times%20New%20Roman%22%20font-size%3D%2218%22%20font-style%3D%22italic%22%20text-anchor%3D%22middle%22%20x%3D%226.5%22%20y%3D%2216%22%3EA%3C%2Ftext%3E%3Ctext%20font-family%3D%22math1786dce69972724680aedcdae82%22%20font-size%3D%2216%22%20text-anchor%3D%22middle%22%20x%3D%2224.5%22%20y%3D%2216%22%3E%26%23x2295%3B%3C%2Ftext%3E%3Ctext%20font-family%3D%22Times%20New%20Roman%22%20font-size%3D%2218%22%20font-style%3D%22italic%22%20text-anchor%3D%22middle%22%20x%3D%2240.5%22%20y%3D%2216%22%3EC%3C%2Ftext%3E%3Ctext%20font-family%3D%22math1786dce69972724680aedcdae82%22%20font-size%3D%2216%22%20text-anchor%3D%22middle%22%20x%3D%2255.5%22%20y%3D%2216%22%3E%26%23x2291%3B%3C%2Ftext%3E%3Ctext%20font-family%3D%22Times%20New%20Roman%22%20font-size%3D%2218%22%20font-style%3D%22italic%22%20text-anchor%3D%22middle%22%20x%3D%2270.5%22%20y%3D%2216%22%3EB%3C%2Ftext%3E%3Ctext%20font-family%3D%22math1786dce69972724680aedcdae82%22%20font-size%3D%2216%22%20text-anchor%3D%22middle%22%20x%3D%2287.5%22%20y%3D%2216%22%3E%26%23x2295%3B%3C%2Ftext%3E%3Ctext%20font-family%3D%22Times%20New%20Roman%22%20font-size%3D%2218%22%20font-style%3D%22italic%22%20text-anchor%3D%22middle%22%20x%3D%22103.5%22%20y%3D%2216%22%3EC%3C%2Ftext%3E%3C%2Fsvg%3E",
+    "data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Awrs%3D%22http%3A%2F%2Fwww.wiris.com%2Fxml%2Fcvs-extension%22%20height%3D%2222%22%20width%3D%22111%22%20wrs%3Abaseline%3D%2216%22%3E%3C!--MathML%3A%20%3Cmath%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F1998%2FMath%2FMathML%22%3E%3Cmi%3EA%3C%2Fmi%3E%3Cmo%3E%26%23x2295%3B%3C%2Fmo%3E%3Cmi%3EC%3C%2Fmi%3E%3Cmo%3E%26%23x2291%3B%3C%2Fmo%3E%3Cmi%3EB%3C%2Fmi%3E%3Cmo%3E%26%23x2295%3B%3C%2Fmo%3E%3Cmi%3EC%3C%2Fmi%3E%3C%2Fmath%3E--%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%40font-face%7Bfont-family%3A'math1786dce69972724680aedcdae82'%3Bsrc%3Aurl(data%3Afont%2Ftruetype%3Bcharset%3Dutf-8%3Bbase64%2CAAEAAAAMAIAAAwBAT1MvMi7iBBMAAADMAAAATmNtYXDEvmKUAAABHAAAADxjdnQgDVUNBwAAAVgAAAA6Z2x5ZoPi2VsAAAGUAAABg2hlYWQQC2qxAAADGAAAADZoaGVhCGsXSAAAA1AAAAAkaG10eE2rRkcAAAN0AAAADGxvY2EAHTwYAAADgAAAABBtYXhwBT0FPgAAA5AAAAAgbmFtZaBxlY4AAAOwAAABn3Bvc3QB9wD6AAAFUAAAACBwcmVwa1uragAABXAAAAAUAAADSwGQAAUAAAQABAAAAAAABAAEAAAAAAAAAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAgICAAAAAg1UADev96AAAD6ACWAAAAAAACAAEAAQAAABQAAwABAAAAFAAEACgAAAAGAAQAAQACIpEilf%2F%2FAAAikSKV%2F%2F%2FdcN1tAAEAAAAAAAAAAAFUAywAgAEAAFYAKgJYAh4BDgEsAiwAWgGAAoAAoADUAIAAAAAAAAAAKwBVAIAAqwDVAQABKwAHAAAAAgBVAAADAAOrAAMABwAAMxEhESUhESFVAqv9qwIA%2FgADq%2FxVVQMAAAIAgAAAAtUCgAAHAAsANxgBsAwQsQsD9LAHPLEDBeWwCdWxBQE8PLENA%2BQAsQsAP7EJBf2xBwX8sQUF9bEDCvaxAQX1MDETIRUhESEVIRUhFSGAAlX%2BAAIA%2FasCVf2rAoBV%2FtVVVlUABACAAAADgAMAAAsAGwAfACMAgxgBsCQQsArUsAoQsBXUsBUQsBLUsBIQsBHUsBEQsA7UsA4QsATUsAQQsCXUsBIQsB08sBEQsB48sBUQsCDUsA4QsCHUALAkELAH1LAHELAZ1LAZELAW1LAWELAV1LAVELAS1LASELAB1LAVELAgPLAWELAjPLASELAd1LAZELAc1DAxADMyFhUUBiMiJjU0AD0BNCYrASIGHQEUFjsBMgcRMxEBIRUhAVWrq9XVq6vVAquWalZqlpZqVmrAVv6AAqr9VgMA1quq1dWqrP7AalZqlpZqVmqWKgKq%2FVYBgFYAAAEAAAABAADVeM5BXw889QADBAD%2F%2F%2F%2F%2F1joTc%2F%2F%2F%2F%2F%2FWOhNzAAD%2FIASAA6sAAAAKAAIAAQAAAAAAAQAAA%2Bj%2FagAAF3AAAP%2B2BIAAAQAAAAAAAAAAAAAAAAAAAAMDUgBVA1QAgAQAAIAAAAAAAAAAKAAAAJAAAAGDAAEAAAADAF4ABQAAAAAAAgCABAAAAAAABAAA3gAAAAAAAAAVAQIAAAAAAAAAAQASAAAAAAAAAAAAAgAOABIAAAAAAAAAAwAwACAAAAAAAAAABAASAFAAAAAAAAAABQAWAGIAAAAAAAAABgAJAHgAAAAAAAAACAAcAIEAAQAAAAAAAQASAAAAAQAAAAAAAgAOABIAAQAAAAAAAwAwACAAAQAAAAAABAASAFAAAQAAAAAABQAWAGIAAQAAAAAABgAJAHgAAQAAAAAACAAcAIEAAwABBAkAAQASAAAAAwABBAkAAgAOABIAAwABBAkAAwAwACAAAwABBAkABAASAFAAAwABBAkABQAWAGIAAwABBAkABgAJAHgAAwABBAkACAAcAIEATQBhAHQAaAAgAEYAbwBuAHQAUgBlAGcAdQBsAGEAcgBNAGEAdABoAHMAIABGAG8AcgAgAE0AbwByAGUAIABNAGEAdABoACAARgBvAG4AdABNAGEAdABoACAARgBvAG4AdABWAGUAcgBzAGkAbwBuACAAMQAuADBNYXRoX0ZvbnQATQBhAHQAaABzACAARgBvAHIAIABNAG8AcgBlAAADAAAAAAAAAfQA%2BgAAAAAAAAAAAAAAAAAAAAAAAAAAuQcRAACNhRgAsgAAABUUE7EAAT8%3D)format('truetype')%3Bfont-weight%3Anormal%3Bfont-style%3Anormal%3B%7D%3C%2Fstyle%3E%3C%2Fdefs%3E%3Ctext%20font-family%3D%22Times%20New%20Roman%22%20font-size%3D%2218%22%20font-style%3D%22italic%22%20text-anchor%3D%22middle%22%20x%3D%226.5%22%20y%3D%2216%22%3EA%3C%2Ftext%3E%3Ctext%20font-family%3D%22math1786dce69972724680aedcdae82%22%20font-size%3D%2216%22%20text-anchor%3D%22middle%22%20x%3D%2224.5%22%20y%3D%2216%22%3E%26%23x2295%3B%3C%2Ftext%3E%3Ctext%20font-family%3D%22Times%20New%20Roman%22%20font-size%3D%2218%22%20font-style%3D%22italic%22%20text-anchor%3D%22middle%22%20x%3D%2240.5%22%20y%3D%2216%22%3EC%3C%2Ftext%3E%3Ctext%20font-family%3D%22math1786dce69972724680aedcdae82%22%20font-size%3D%2216%22%20text-anchor%3D%22middle%22%20x%3D%2255.5%22%20y%3D%2216%22%3E%26%23x2291%3B%3C%2Ftext%3E%3Ctext%20font-family%3D%22Times%20New%20Roman%22%20font-size%3D%2218%22%20font-style%3D%22italic%22%20text-anchor%3D%22middle%22%20x%3D%2270.5%22%20y%3D%2216%22%3EB%3C%2Ftext%3E%3Ctext%20font-family%3D%22math1786dce69972724680aedcdae82%22%20font-size%3D%2216%22%20text-anchor%3D%22middle%22%20x%3D%2287.5%22%20y%3D%2216%22%3E%26%23x2295%3B%3C%2Ftext%3E%3Ctext%20font-family%3D%22Times%20New%20Roman%22%20font-size%3D%2218%22%20font-style%3D%22italic%22%20text-anchor%3D%22middle%22%20x%3D%22103.5%22%20y%3D%2216%22%3EC%3C%2Ftext%3E%3C%2Fsvg%3E"
+  ],
+  "以下哪一个图表示": [
+    "https://public-cdn-oss.mosoteach.cn/mssvc/editor/2020/04/d003b97710530b825a576fa03ecca824.png"
+  ],
+  "在[1, 100]上，既不能被3和5，也不能被7整除的整数有多少个？": [
+    "45"
+  ],
+  "A、B是任意集合，以下错误的是？": [
+    "A⊕B = (A-B) ∩ (B-A)"
+  ],
+  "设A，B，C均为非空集合，如果A∪C⊆B∪C，且A∩C⊆B∪C，那么A⊆B一定成立。": [
+    "对"
+  ],
+  "设p: 发生了堵车，q: 他起晚了，r: 他迟到了，则用逻辑符号表示命题“今天虽然他起晚了，但是没有堵车，所以他没有迟到。”为 ": [
+    "假"
+  ],
+  "下列中的假命题是（      ）。": [
+    "如果2是偶数，那么一个公式的析取范式唯一"
+  ],
+  "p: 张三可以做这件事。q: 李四可以做这件事。命题“张三或李四可以做这件事”符号化为(    )": [
+    "data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Awrs%3D%22http%3A%2F%2Fwww.wiris.com%2Fxml%2Fcvs-extension%22%20height%3D%2222%22%20width%3D%2240%22%20wrs%3Abaseline%3D%2216%22%3E%3C!--MathML%3A%20%3Cmath%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F1998%2FMath%2FMathML%22%3E%3Cmi%3Ep%3C%2Fmi%3E%3Cmo%3E%26%23x2228%3B%3C%2Fmo%3E%3Cmi%3Eq%3C%2Fmi%3E%3C%2Fmath%3E--%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%40font-face%7Bfont-family%3A'math1d55eaf8506f9046a88b8730781'%3Bsrc%3Aurl(data%3Afont%2Ftruetype%3Bcharset%3Dutf-8%3Bbase64%2CAAEAAAAMAIAAAwBAT1MvMi7iBBMAAADMAAAATmNtYXDEvmKUAAABHAAAADRjdnQgDVUNBwAAAVAAAAA6Z2x5ZoPi2VsAAAGMAAAAh2hlYWQQC2qxAAACFAAAADZoaGVhCGsXSAAAAkwAAAAkaG10eE2rRkcAAAJwAAAACGxvY2EAHTwYAAACeAAAAAxtYXhwBT0FPgAAAoQAAAAgbmFtZaBxlY4AAAKkAAABn3Bvc3QB9wD6AAAERAAAACBwcmVwa1uragAABGQAAAAUAAADSwGQAAUAAAQABAAAAAAABAAEAAAAAAAAAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAgICAAAAAg1UADev96AAAD6ACWAAAAAAACAAEAAQAAABQAAwABAAAAFAAEACAAAAAEAAQAAQAAIij%2F%2FwAAIij%2F%2F93ZAAEAAAAAAAABVAMsAIABAABWACoCWAIeAQ4BLAIsAFoBgAKAAKAA1ACAAAAAAAAAACsAVQCAAKsA1QEAASsABwAAAAIAVQAAAwADqwADAAcAADMRIRElIREhVQKr%2FasCAP4AA6v8VVUDAAABAIAAAAMrAlUABgA1GAGwBxCxAAP0sQYF5bEBCuaxAgX2sQMK9bEEBeaxCAPkALEBAD%2BwAjywANayBAYDPDw8MDETATMBIwkBgAEqVgErVf7%2F%2FwACVf2rAlX99AIMAAABAAAAAQAA1XjOQV8PPPUAAwQA%2F%2F%2F%2F%2F9Y6E3P%2F%2F%2F%2F%2F1joTcwAA%2FyAEgAOrAAAACgACAAEAAAAAAAEAAAPo%2F2oAABdwAAD%2FtgSAAAEAAAAAAAAAAAAAAAAAAAACA1IAVQOgAIAAAAAAAAAAKAAAAIcAAQAAAAIAXgAFAAAAAAACAIAEAAAAAAAEAADeAAAAAAAAABUBAgAAAAAAAAABABIAAAAAAAAAAAACAA4AEgAAAAAAAAADADAAIAAAAAAAAAAEABIAUAAAAAAAAAAFABYAYgAAAAAAAAAGAAkAeAAAAAAAAAAIABwAgQABAAAAAAABABIAAAABAAAAAAACAA4AEgABAAAAAAADADAAIAABAAAAAAAEABIAUAABAAAAAAAFABYAYgABAAAAAAAGAAkAeAABAAAAAAAIABwAgQADAAEECQABABIAAAADAAEECQACAA4AEgADAAEECQADADAAIAADAAEECQAEABIAUAADAAEECQAFABYAYgADAAEECQAGAAkAeAADAAEECQAIABwAgQBNAGEAdABoACAARgBvAG4AdABSAGUAZwB1AGwAYQByAE0AYQB0AGgAcwAgAEYAbwByACAATQBvAHIAZQAgAE0AYQB0AGgAIABGAG8AbgB0AE0AYQB0AGgAIABGAG8AbgB0AFYAZQByAHMAaQBvAG4AIAAxAC4AME1hdGhfRm9udABNAGEAdABoAHMAIABGAG8AcgAgAE0AbwByAGUAAAMAAAAAAAAB9AD6AAAAAAAAAAAAAAAAAAAAAAAAAAC5BxEAAI2FGACyAAAAFRQTsQABPw%3D%3D)format('truetype')%3Bfont-weight%3Anormal%3Bfont-style%3Anormal%3B%7D%3C%2Fstyle%3E%3C%2Fdefs%3E%3Ctext%20font-family%3D%22Times%20New%20Roman%22%20font-size%3D%2218%22%20font-style%3D%22italic%22%20text-anchor%3D%22middle%22%20x%3D%224.5%22%20y%3D%2216%22%3Ep%3C%2Ftext%3E%3Ctext%20font-family%3D%22math1d55eaf8506f9046a88b8730781%22%20font-size%3D%2216%22%20text-anchor%3D%22middle%22%20x%3D%2219.5%22%20y%3D%2216%22%3E%26%23x2228%3B%3C%2Ftext%3E%3Ctext%20font-family%3D%22Times%20New%20Roman%22%20font-size%3D%2218%22%20font-style%3D%22italic%22%20text-anchor%3D%22middle%22%20x%3D%2233.5%22%20y%3D%2216%22%3Eq%3C%2Ftext%3E%3C%2Fsvg%3E"
+  ],
+  "p: 我将去镇上。q: 我有时间。命题“我将去镇上,仅当我有时间”符号化为": [
+    "data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Awrs%3D%22http%3A%2F%2Fwww.wiris.com%2Fxml%2Fcvs-extension%22%20height%3D%2222%22%20width%3D%2241%22%20wrs%3Abaseline%3D%2216%22%3E%3C!--MathML%3A%20%3Cmath%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F1998%2FMath%2FMathML%22%3E%3Cmi%3Ep%3C%2Fmi%3E%3Cmo%3E%26%23x2192%3B%3C%2Fmo%3E%3Cmi%3Eq%3C%2Fmi%3E%3C%2Fmath%3E--%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%40font-face%7Bfont-family%3A'math12bba9f4124283edd644799e0ce'%3Bsrc%3Aurl(data%3Afont%2Ftruetype%3Bcharset%3Dutf-8%3Bbase64%2CAAEAAAAMAIAAAwBAT1MvMi7iBBMAAADMAAAATmNtYXDEvmKUAAABHAAAADRjdnQgDVUNBwAAAVAAAAA6Z2x5ZoPi2VsAAAGMAAAAcWhlYWQQC2qxAAACAAAAADZoaGVhCGsXSAAAAjgAAAAkaG10eE2rRkcAAAJcAAAACGxvY2EAHTwYAAACZAAAAAxtYXhwBT0FPgAAAnAAAAAgbmFtZaBxlY4AAAKQAAABn3Bvc3QB9wD6AAAEMAAAACBwcmVwa1uragAABFAAAAAUAAADSwGQAAUAAAQABAAAAAAABAAEAAAAAAAAAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAgICAAAAAg1UADev96AAAD6ACWAAAAAAACAAEAAQAAABQAAwABAAAAFAAEACAAAAAEAAQAAQAAIZL%2F%2FwAAIZL%2F%2F95vAAEAAAAAAAABVAMsAIABAABWACoCWAIeAQ4BLAIsAFoBgAKAAKAA1ACAAAAAAAAAACsAVQCAAKsA1QEAASsABwAAAAIAVQAAAwADqwADAAcAADMRIRElIREhVQKr%2FasCAP4AA6v8VVUDAAABAIAAqgOAAlUACAAfALEAABMQsQAG5bEAARMQsAE8sQMP5bEHBfWxBQ%2F1MBMhJzUNATU3IYACK1YBK%2F7VVv3VAapBatXWa0AAAAAAAQAAAAEAANV4zkFfDzz1AAMEAP%2F%2F%2F%2F%2FWOhNz%2F%2F%2F%2F%2F9Y6E3MAAP8gBIADqwAAAAoAAgABAAAAAAABAAAD6P9qAAAXcAAA%2F7YEgAABAAAAAAAAAAAAAAAAAAAAAgNSAFUEAACAAAAAAAAAACgAAABxAAEAAAACAF4ABQAAAAAAAgCABAAAAAAABAAA3gAAAAAAAAAVAQIAAAAAAAAAAQASAAAAAAAAAAAAAgAOABIAAAAAAAAAAwAwACAAAAAAAAAABAASAFAAAAAAAAAABQAWAGIAAAAAAAAABgAJAHgAAAAAAAAACAAcAIEAAQAAAAAAAQASAAAAAQAAAAAAAgAOABIAAQAAAAAAAwAwACAAAQAAAAAABAASAFAAAQAAAAAABQAWAGIAAQAAAAAABgAJAHgAAQAAAAAACAAcAIEAAwABBAkAAQASAAAAAwABBAkAAgAOABIAAwABBAkAAwAwACAAAwABBAkABAASAFAAAwABBAkABQAWAGIAAwABBAkABgAJAHgAAwABBAkACAAcAIEATQBhAHQAaAAgAEYAbwBuAHQAUgBlAGcAdQBsAGEAcgBNAGEAdABoAHMAIABGAG8AcgAgAE0AbwByAGUAIABNAGEAdABoACAARgBvAG4AdABNAGEAdABoACAARgBvAG4AdABWAGUAcgBzAGkAbwBuACAAMQAuADBNYXRoX0ZvbnQATQBhAHQAaABzACAARgBvAHIAIABNAG8AcgBlAAADAAAAAAAAAfQA%2BgAAAAAAAAAAAAAAAAAAAAAAAAAAuQcRAACNhRgAsgAAABUUE7EAAT8%3D)format('truetype')%3Bfont-weight%3Anormal%3Bfont-style%3Anormal%3B%7D%3C%2Fstyle%3E%3C%2Fdefs%3E%3Ctext%20font-family%3D%22Times%20New%20Roman%22%20font-size%3D%2218%22%20font-style%3D%22italic%22%20text-anchor%3D%22middle%22%20x%3D%224.5%22%20y%3D%2216%22%3Ep%3C%2Ftext%3E%3Ctext%20font-family%3D%22math12bba9f4124283edd644799e0ce%22%20font-size%3D%2216%22%20text-anchor%3D%22middle%22%20x%3D%2220.5%22%20y%3D%2216%22%3E%26%23x2192%3B%3C%2Ftext%3E%3Ctext%20font-family%3D%22Times%20New%20Roman%22%20font-size%3D%2218%22%20font-style%3D%22italic%22%20text-anchor%3D%22middle%22%20x%3D%2234.5%22%20y%3D%2216%22%3Eq%3C%2Ftext%3E%3C%2Fsvg%3E"
+  ],
+  "下列语句中是原子命题的是？": [
+    "红色和蓝色在一起可以调配成紫色。"
+  ],
+  "下列语句中哪个是真命题(    )": [
+    "如果1+2=5,那么雪是黑的"
+  ],
+  "下述命题的真值为假的是？": [
+    "如果太阳从东方升起，那么1+1=3。"
+  ],
+  "以下哪个语句是命题？": [
+    "太阳是行星。"
+  ],
+  "设  P：我是中国人\nQ：我是北京人\n请问：“除非我是北京人，否则我就不是中国人”命题符号化的结果是：": [
+    "P→Q"
+  ],
+  "以下哪个命题是原子命题？": [
+    "张三和李四是朋友"
+  ],
+  "以下哪个语句是假命题？": [
+    "只有北京科技大学不在北京，2才是素数。"
+  ],
+  "f:X→Y, g:Y→Z\n是函数，则下列陈述正确的是(   )": [
+    "若f和g都是满射的，则fog是满射的",
+    "若g不是满射的，则fog不是满射的"
+  ],
+  "设 f(x)=x+3, g(x)=2x+1, x∈Z (fog)的逆=（）": [
+    "(x-7)/2"
+  ],
+  "设函数  f: R × R →R × R  定义为：f(<x,y>)=(<x+y,x-y)，则反函数f-1是（ ）": [
+    "f-1=<(x+y)/2,(x-y)/2"
+  ],
+  "设A={1,2,3}， B={4,5,6}, f:A->B是从集合A到集合B的映射，f(1)=4,f(2)=5,f(3)=6,则f是可逆映射。": [
+    "对"
+  ],
+  "设X为有穷集合，S={f|f为从X到X的双射}，则S上的映射的合成运算的单位元为X上的恒等映射。": [
+    "对"
+  ],
+  "设f:X->X为从集合X到集合X的一一对应，使得,则f为从X到X的恒等映射。": [
+    "错"
+  ],
+  "设N为自然数集，f:N->N为从N到N的映射，f(n)=2n, g:N->N为从N到N的映射，g(n)=n+3，则 fog (1)=。": [
+    "6"
+  ],
+  "设集合A={1,2,3,4}，集合B={a,b,c,d}，f:A->B为从A到B的映射，f(1)=a,f(2)=b,f(3)=c,f(4)=d，则f-1(c)()。": [
+    "3"
+  ],
+  "考虑实数集上的函数f(x)=2x2+1；g(x)=－x+7，则f○g的解析式为": [
+    "-2x2+6"
+  ],
+  "以下函数具有逆函数的是？": [
+    "f:N->N, f(x)=x"
+  ],
+  "下列说法正确的是（）": [
+    "A与B为两个相等的集合，从A到B的函数是单射当且仅当它是一个满射。",
+    "函数的逆关系不一定都是函数。",
+    "只有双射函数是可逆的，其逆函数也是双射的。"
+  ],
+  "设有函数 f:A→B 和 g:B→C，那么，如果是单射，则 fog 是单射（ ）": [
+    "f是单射"
+  ],
+  "下述推理用到了什么定律？\n\nA∩（A∪B）\n\n   =（A∪Ø）∩（A∪B）\n\n   = A∪(Ø∩B)\n\n   =A∪Ø\n\n   =A": [
+    "分配律",
+    "零律"
+  ],
+  "给出一个格L，则L是（              ）。": [
+    "A,B,C都不对"
+  ],
+  "图所示的有界格中，元素b的补元是(       )。": [
+    "d"
+  ],
+  "下面集合（           ）关于整除关系构成格。": [
+    "{1，2，3，5，6，15，30}"
+  ],
+  "设集合S={1,2,3,6}，“≤”为整除关系，则代数系统 < S , ≤ >是（               ）。": [
+    "布尔代数"
+  ],
+  "设<A,  >是一个格，由格诱导的代数系统为 <A,∨,∧>，则（          ）成立。": [
+    "∀a,b ∈A， a≤b <==> a∨b = b"
+  ],
+  "下面（           ）哈斯图所描述的偏序关系构成分配格。": [
+    "https://public-cdn-oss.mosoteach.cn/mssvc/editor/2020/05/341e54acab97e79dddf640dd2c4949c1.png"
+  ],
+  "在（         ）中，补元是唯一的。": [
+    "有补分配格"
+  ],
+  "设 <A,∨,∧,﹁>是布尔代数，f是从An到A的函数，则（           ） 。": [
+    "若A={0，1}，则f一定能表示成析取范式，也能表示成合取范式",
+    "若f是布尔函数，它一定能表示成析（合）取范式。"
+  ],
+  "B={x|x∈R ∧x2=9 ∧2x=8} 的基数是（）": [
+    "0"
+  ],
+  "基数是3的集合是？": [
+    "{1, 1, 2, 2, 3}"
+  ],
+  "可数集的任何子集都是可数集": [
+    "对"
+  ],
+  "两个可数集的并集不是是可数集": [
+    "错"
+  ],
+  "可数集中加入有限个元素(或删除有限个元素)仍为可数集": [
+    "对"
+  ],
+  "两个可数集的笛卡尔积不是可数集": [
+    "错"
+  ],
+  "无限集合不可能存在基数": [
+    "错"
+  ],
+  "若一个集合基数为3，那么其幂集基数为": [
+    "23"
+  ],
+  "若A和B是无限集，C是有限集，则下列说法正确的是（ ）": [
+    "A∪C一定是无限集"
+  ],
+  "A={1，2，3，4，5}上共有255个二元关系": [
+    "错"
+  ],
+  "设A = {1,2,3,4,5}，A上关系R = {<1,2>,<3,4>,<2,2>}S = {<4,2>,<2,5>,<3,1>,<1,3> 则 RoS 关系矩阵为": [
+    "https://public-cdn-oss.mosoteach.cn/mssvc/editor/2020/05/312314923aba69d4abe413ee3c2d8d90.png"
+  ],
+  "设 A ={1,2,3,4}，A上的关系R={<2,1>,<3,2>,<4,3>}  则有R3= (   )": [
+    "{<4,1>}"
+  ],
+  "A={1,2,3,4,5},B={1,2},R={x,y|2 <= x+y <= 4 ,x∈ A,y∈B}\n则关系R是": [
+    "{<1,1>,<1,2>,<2,1>,<2,2>,<3,1>}"
+  ],
+  "设 A ={1,2,3}，B={a,b}，下列二元关系R为A到B的函数的是(   )。": [
+    "R={<1,a>,<2,a>,<3,a>}"
+  ],
+  "设S是集合A到B的二元关系，则下列各式中(    )是正确的。": [
+    "domS ⊆ A"
+  ],
+  "设A={1 ,2 ,3 }，则A上有（      ）个二元关系。": [
+    "512"
+  ],
+  "设 A={a,b}，则P(A)×A为  (   )": [
+    "{<Φ,a>,<Φ,b>,<{a},a>,<{a},b>,<{b},a>,<{b},b>,<A,a>,<A,b>}"
+  ]
+}
