@@ -7,3 +7,5 @@ access_file.txt
 *.png
 quiz_html/.DS_Store
 .DS_Store
+*.xml
+*.iml
