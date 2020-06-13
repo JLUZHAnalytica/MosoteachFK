@@ -43,7 +43,7 @@ def init_web():
     bu = web.find_elements_by_xpath('//*[@class="group-name color-33"]')
     for b in range(1, len(bu)):
         bu[b].click()
-        time.sleep(0.5)  #太低会导致展开不完全
+        time.sleep(0.5)  # 太低会导致展开不完全
 
     return web
 
@@ -79,9 +79,45 @@ def verify_ans(ques, ans, database):
 def right_scope(web, ques_index, opt_index):
     # 利用js将元素拖动到可见区域
     WebDriverWait(web, 10).until(
-        EC.visibility_of_element_located((By.XPATH, '//*[@id="topics-box"]/div[{}]/div[{}]'.format(ques_index + 1, opt_index + 2))))
+        EC.visibility_of_element_located(
+            (By.XPATH, '//*[@id="topics-box"]/div[{}]/div[{}]'.format(ques_index + 1, opt_index + 2))))
     element = web.find_element_by_xpath('//*[@id="topics-box"]/div[{}]/div[{}]'.format(ques_index + 1, opt_index + 2))
     web.execute_script('arguments[0].scrollIntoView({block:"center"});', element)  # 可见元素与页面“中间”对齐
+
+
+def finish_quiz(web, no_left_mode):
+    with open("data/question_data.json", 'r', encoding='utf-8') as fd:
+        quiz_database = json.loads(fd.read())
+    quiz_page = Selector(text=web.page_source)
+    ques_index = 0
+    for quiz in quiz_page.css(".student-topic-row"):
+        opt_index = 0
+        question_title = ''
+        cur_question_done = False
+        for sel_opt in quiz.css("pre"):
+            sel_text = sel_opt.xpath("string()").get()
+            if opt_index == 0:
+                question_title = sel_text
+                opt_index += 1
+                continue
+            if sel_opt.css("img"):
+                if verify_ans(question_title, sel_opt.css("img").attrib['src'], quiz_database):
+                    right_scope(web, ques_index, opt_index)
+                    web.find_element_by_xpath(
+                        '//*[@id="topics-box"]/div[{}]/div[{}]'.format(ques_index + 1, opt_index + 2)).click()
+                    cur_question_done = True
+            else:
+                if verify_ans(question_title, sel_text, quiz_database):
+                    right_scope(web, ques_index, opt_index)
+                    web.find_element_by_xpath(
+                        '//*[@id="topics-box"]/div[{}]/div[{}]'.format(ques_index + 1, opt_index + 2)).click()
+                    cur_question_done = True
+            opt_index += 1
+        '''查询不到答案随机选，默认关闭'''
+        if no_left_mode and not cur_question_done:
+            print("第{}题：{}已自动选择。".format(ques_index + 1, question_title))
+            web.find_element_by_xpath('//*[@id="topics-box"]/div[{}]/div[{}]'.format(ques_index + 1, 4)).click()
+        ques_index += 1
 
 
 def go_back(web):
@@ -102,39 +138,7 @@ def main(web, no_left_mode):
     begin_test.click()  # 开始答题
     js = "var q=document.documentElement.scrollTop={}".format(350)
     web.execute_script(js)
-
-    with open("question_data.json", 'r', encoding='utf-8') as fd:
-        quiz_database = json.loads(fd.read())
-    quiz_page = Selector(text=web.page_source)
-    ques_index = 0
-    for quiz in quiz_page.css(".student-topic-row"):
-        opt_index = 0
-        question_title = ''
-        question_done = False
-        for sel_opt in quiz.css("pre"):
-            sel_text = sel_opt.xpath("string()").get()
-            if opt_index == 0:
-                question_title = sel_text
-                opt_index += 1
-                continue
-            if sel_opt.css("img"):
-                if verify_ans(question_title, sel_opt.css("img").attrib['src'], quiz_database):
-                    right_scope(web, ques_index, opt_index)
-                    web.find_element_by_xpath(
-                        '//*[@id="topics-box"]/div[{}]/div[{}]'.format(ques_index + 1, opt_index + 2)).click()
-                    question_done = True
-            else:
-                if verify_ans(question_title, sel_text, quiz_database):
-                    right_scope(web, ques_index, opt_index)
-                    web.find_element_by_xpath(
-                        '//*[@id="topics-box"]/div[{}]/div[{}]'.format(ques_index + 1, opt_index + 2)).click()
-                    question_done = True
-            opt_index += 1
-        '''查询不到答案随机选，默认关闭'''
-        if no_left_mode and not question_done:
-            print("第{}题：{}已自动选择。".format(ques_index+1, question_title))
-            web.find_element_by_xpath('//*[@id="topics-box"]/div[{}]/div[{}]'.format(ques_index + 1, 4)).click()
-        ques_index += 1
+    finish_quiz(web, no_left_mode)
     if input("本次是否自动提交: (y/n)") == 'n':
         input("请手动提交后按回车继续...")
     else:
@@ -149,7 +153,7 @@ def main(web, no_left_mode):
     score = HTML(web.page_source).xpath('//*[@id="score-bg"]/div[2]/span[1]')[0].xpath('string()').replace('\n', '').replace(' ', '')
     Time = HTML(web.page_source).xpath('//*[@id="time-bg"]/div[2]/span')[0].xpath('string()').replace('\n', '').replace(' ', '')
     time.sleep(1)
-    print('您的得分为：'+str(score)+'分，用时：'+Time)
+    print('您的得分为：' + str(score) + '分，用时：' + Time)
     # web.find_element_by_xpath('//*[@class="button-routine tips-ok"]').click()
     # time.sleep(2)
     '''答完题返回'''

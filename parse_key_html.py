@@ -44,5 +44,5 @@ for k in os.walk('key_html'):
         for ques in html.css(".row-center"):
             parse_ans(ques)
 
-with open("question_data.json", 'w') as fd:
+with open("data/question_data.json", 'w') as fd:
     fd.write(json.dumps(ans_data, ensure_ascii=False))
