@@ -45,4 +45,4 @@ for k in os.walk('key_html'):
             parse_ans(ques)
 
 with open("data/question_data.json", 'w') as fd:
-    fd.write(json.dumps(ans_data, ensure_ascii=False))
+    fd.write(json.dumps(ans_data, ensure_ascii=False, indent=4))
