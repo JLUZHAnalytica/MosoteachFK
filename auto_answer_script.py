@@ -30,7 +30,7 @@ def init_web():
     login = web.find_element_by_xpath('//*[@id="login-button-1"]')
     login.click()
     time.sleep(1)
-    Discretemathematics = web.find_element_by_xpath('//*[@title="离散数学"]')
+    Discretemathematics = web.find_element_by_xpath('//*[@title="数据结构"]')
     Discretemathematics.click()
     time.sleep(1)
     r = str(input('是否助教(y|n):'))
@@ -50,10 +50,10 @@ def init_web():
 
 def get_unaccomplished(web):
     """返回web的xpath对象 和 标题"""
-    titles_xpath_1 = HTML(web.page_source).xpath('//*[@style="color:#EC6941;"]')
+    titles_xpath_1 = HTML(web.page_source).xpath('//*[@data-type="QUIZ"]//*[@style="color:#EC6941;"]')
     titles = HTML(web.page_source).xpath('//*[@data-type="QUIZ"]/div/div[1]/span[2]/@title')
     titles_color_xpath = HTML(web.page_source).xpath('//*[@data-type="QUIZ"]/div/div[3]/div/span[11]/@style')
-    titles_web = web.find_elements_by_xpath('//*[@style="color:#EC6941;"]')
+    titles_web = web.find_elements_by_xpath('//*[@data-type="QUIZ"]//*[@style="color:#EC6941;"]')
     titles_list = []
     title_web_list = []
     titles_xpath = []
@@ -61,7 +61,7 @@ def get_unaccomplished(web):
         if titles_xpath_1[j].xpath('string()') == '5 经验':
             title_web_list.append(titles_web[j])
             titles_xpath.append(titles_xpath_1[j])
-    title_web_list = title_web_list[:-1]
+    # title_web_list = title_web_list[:-1]
     titles_xpath = titles_xpath[:-1]
     for j in range(len(titles_color_xpath)):
         if titles_color_xpath[j] == 'color:#EC6941;':
@@ -86,7 +86,7 @@ def right_scope(web, ques_index, opt_index):
 
 
 def finish_quiz(web, no_left_mode):
-    with open("data/question_data.json", 'r', encoding='utf-8') as fd:
+    with open("data/DS_question_data.json", 'r', encoding='utf-8') as fd:
         quiz_database = json.loads(fd.read())
     quiz_page = Selector(text=web.page_source)
     ques_index = 0
