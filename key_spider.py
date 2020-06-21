@@ -49,17 +49,41 @@ def all_class_page_handle(web):
     index = 0
     for class_item in page.css(".my-join.class-list .class-item "):
         index += 1
-        print(str(index) + ". " +class_item.css(".class-info-subject").attrib['text'])
+        print(str(index) + ". " +class_item.css(".class-info-subject").attrib['title'])
     choose = input("请选择班课:")
     web.find_element_by_css_selector(".my-join.class-list .class-item:nth-of-type({})".format(choose)).click()
+    time.sleep(2)
+    
+
+def span_page(web):
+    bu = web.find_elements_by_xpath('//*[@class="group-name color-33"]')
+    for b in range(1, len(bu)):
+        bu[b].click()
+        time.sleep(0.5)  # 太低会导致展开不完全
+
+
+def single_class_page_handle(web):
+    span_page(web)
+    length = len(web.find_elements_by_xpath('//*[@data-type="QUIZ"]'))
+    for i in range(length):
+        web.find_element_by_xpath('(//*[@data-type="QUIZ"])[{}]'.format(str(i+1))).click()
+        time.sleep(2)
+        title = web.find_element_by_css_selector(".manager-active-name-length").get_attribute("title")
+        with open("DS_key_html/{}.html".format(title),'w') as fd:
+            fd.write(web.page_source)
+        print("已保存 " + title)
+        web.back()
+        time.sleep(3)
 
 
 
 if __name__ == '__main__':
-    if not os.path.exists("data/cookies.json"):
-        web = get_cookie_to_file()
-    else:
-        web = login_by_cookies()
+    web = get_cookie_to_file()
+    # if not os.path.exists("data/cookies.json"):
+    #     web = get_cookie_to_file()
+    # else:
+    #     web = login_by_cookies()
     all_class_page_handle(web)
+    single_class_page_handle(web)
 
 

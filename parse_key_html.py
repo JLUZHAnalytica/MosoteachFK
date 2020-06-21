@@ -33,8 +33,8 @@ def parse_ans(ques):
 
 ans_data = {}  # 用于存放结果的
 
-for k in os.walk('key_html'):
-    if k[0] != 'key_html':
+for k in os.walk('DS_key_html'):
+    if k[0] != 'DS_key_html':
         continue
     for filename in k[2]:
         if filename[-5:] != '.html':
@@ -44,5 +44,5 @@ for k in os.walk('key_html'):
         for ques in html.css(".row-center"):
             parse_ans(ques)
 
-with open("data/question_data.json", 'w') as fd:
+with open("data/DS_question_data.json", 'w') as fd:
     fd.write(json.dumps(ans_data, ensure_ascii=False, indent=4))
